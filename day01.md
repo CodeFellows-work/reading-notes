@@ -1,2 +1,2 @@
-#<u> Day 1 Reading Notes </u># 
+<u># Day 1 Reading Notes #</u> 
 
