@@ -15,9 +15,11 @@ Now there are multiple **Web Browsers** you can use to access the web. Some of t
 You might have a better idea if you see the logos. The following are logos of the described **Web Browsers** in order: 
 
 ![Mozilla Firefox](https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg-high-res.fbc7ffbb50fd.png)
-![Google Chrome]()
-![Safari]()
-![Opera]()
-![Internet Explorer]()
+![Google Chrome](https://i.pinimg.com/originals/0a/6b/c7/0a6bc77193c559f6e6c986bbf87227c6.png)
+![Safari](https://static.macupdate.com/products/15675/l/apple-safari-logo.png?v=1608192090)
+![Opera](https://pngimg.com/uploads/opers/opers_PNG25.png)
+![Internet Explorer](http://guiadeinternet.com/files/2011/11/Internet_Explorer_9.png)
+
+
 
 
