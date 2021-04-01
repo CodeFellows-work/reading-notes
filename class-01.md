@@ -22,7 +22,8 @@ You might have a better idea if you see the logos. The following are logos of th
 
 From a **Web Browser** to go to a **Web Page** you enter a web address or you can just follow a link that may be in bookmarks depending on your browser. 
 
-### So how does the web browser go to a web page? 
+### So how does it work, going to a web page? 
+
 
 
 
