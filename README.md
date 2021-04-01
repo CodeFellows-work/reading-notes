@@ -1,5 +1,4 @@
-# reading-notes #
-# Daily reading notes #
+# Reading-Notes #
 
 _Code Fellows 102_
 
