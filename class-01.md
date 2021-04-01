@@ -36,7 +36,7 @@ Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript.
 
 ### How Does This All Work? 
 
-
+![DNS](https://upload.wikimedia.org/wikipedia/commons/7/7e/Dns-rev-1.gif)
 
 
 
