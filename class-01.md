@@ -26,6 +26,13 @@ From a **Web Browser** to go to a **Web Page** you enter a web address or you ca
 
 Each website or page is hosted by a server, better known as a **Web Server**. When you ask your browser to take you to a web page (such as typing or clicking on a link) your browser will send a request accross the internet to the **Web Server**. A **Web Server** is basically a computer that is specifically used to send out web pages to those that request them. 
 
+### Screen Readers 
+
+Another method to access the web is for people with visual impairments. Technology has now advanced far enough so that literally anyone can access it. **Screen Readers** is software that will read out the contents of a screen to a user. 
+
+### How is it Created? 
+
+Websites are mainly made up by 'HTML' and CSS but can also include JavaScript. 'HTML' stands for **Hyper-Text Markup Language** and CSS stands for **Cascading-Style Sheets** 
 
 
 
