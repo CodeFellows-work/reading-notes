@@ -1,2 +1,2 @@
 # <ins>Day 1 Reading Notes</ins> # 
-'(HTML)' "stucture" Chapter 1 
+HTML "stucture" Chapter 1 
