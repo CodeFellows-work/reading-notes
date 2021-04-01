@@ -22,7 +22,7 @@ You might have a better idea if you see the logos. The following are logos of th
 
 From a **Web Browser** to go to a **Web Page** you enter a web address or you can just follow a link that may be in bookmarks depending on your browser. 
 
-### So how does a web browser access a web page? 
+### So How Does a Web Browser Access a Web Page? 
 
 Each website or page is hosted by a server, better known as a **Web Server**. When you ask your browser to take you to a web page (such as typing or clicking on a link) your browser will send a request accross the internet to the **Web Server**. A **Web Server** is basically a computer that is specifically used to send out web pages to those that request them. 
 
@@ -32,7 +32,10 @@ Another method to access the web is for people with visual impairments. Technolo
 
 ### How is it Created? 
 
-Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript. `HTML` stands for **Hyper-Text Markup Language** and `CSS` stands for **Cascading-Style Sheets** 
+Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript. `HTML` stands for **Hyper-Text Markup Language** and `CSS` stands for **Cascading-Style Sheets**. So within the web pages that you see, your browser will be recieving the `HTML` and `CSS` from a web server and will interpret them into what you see as the web page. With a smaller website, all that is really needed is `HTML` and `CSS` as there is not much that is needed. However, larger more complex web pages might start to utilize other languages to store a data and use databases. 
+
+### How Does This All Work? 
+
 
 
 
