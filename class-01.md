@@ -44,7 +44,9 @@ As you can see from the picture above The DNS act like telephone books for your 
 
 1. You connect to the web through an Internet Service Provider or **ISP** and type in a domain address or web address. For example, github.com 
 1. Your computer will connect to servers in the network called DNS or **Domain Name Servers**
-1. 
+1. The DNS will communicate with one another and find the IP address that is associated with the domain name that you requested which was (in our example) github.com. **IP addresses are associated with each domain names and are numbers that are up to 12 digits and sepetrated by periods. Example, 192.168.1.0** 
+1. Once the DNS gives your computer a unique IP address, your computer will now be able to contact the web server that holds the web page that was requested. 
+1. The web server will then send the web page back to your computer.  
 
 
 
