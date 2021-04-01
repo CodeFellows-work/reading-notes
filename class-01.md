@@ -49,6 +49,13 @@ As you can see from the picture above The DNS act like telephone books for your 
 1. The web server will then send the web page back to your computer.  
 
 # <ins>HTML Structure</ins> #
+---
+
+## Understanding Structure, Markup, Tags and Elements 
+
+
+
+
 
 
 
