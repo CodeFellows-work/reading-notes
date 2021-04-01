@@ -22,7 +22,11 @@ You might have a better idea if you see the logos. The following are logos of th
 
 From a **Web Browser** to go to a **Web Page** you enter a web address or you can just follow a link that may be in bookmarks depending on your browser. 
 
-### So how does it work, going to a web page? 
+### So how does a web browser access a web page? 
+
+Each website or page is hosted by a server, better known as a **Web Server**. When you ask your browser to take you to a web page (such as typing or clicking on a link) your browser will send a request accross the internet to the **Web Server**. A **Web Server** is basically a computer that is specifically used to send out web pages to those that request them. 
+
+
 
 
 
