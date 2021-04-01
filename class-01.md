@@ -40,6 +40,11 @@ Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript.
 
 Source: Б.Өлзий. (2016, April 14). DNS. Retrieved March 31, 2021, from https://en.wikipedia.org/wiki/File:Dns-rev-1.gif
 
+As you can see from the picture above The DNS act like telephone books for your device. In order this is how the web works: 
+
+1. You connect to the web through an Internet Service Provider or **ISP** and type in a domain address or web address. For example, github.com 
+1. Your computer will connect to servers in the network called DNS or **Domain Name Servers**
+1. 
 
 
 
