@@ -32,7 +32,7 @@ Another method to access the web is for people with visual impairments. Technolo
 
 ### How is it Created? 
 
-Websites are mainly made up by 'HTML' and CSS but can also include JavaScript. 'HTML' stands for **Hyper-Text Markup Language** and CSS stands for **Cascading-Style Sheets** 
+Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript. `HTML` stands for **Hyper-Text Markup Language** and `CSS` stands for **Cascading-Style Sheets** 
 
 
 
