@@ -48,7 +48,7 @@ As you can see from the picture above The DNS act like telephone books for your 
 1. Once the DNS gives your computer a unique IP address, your computer will now be able to contact the web server that holds the web page that was requested. 
 1. The web server will then send the web page back to your computer.  
 
-## HTML Structure ##
+# <ins>HTML Structure</ins> #
 
 
 
