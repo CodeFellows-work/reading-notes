@@ -38,7 +38,7 @@ Websites are mainly made up by `HTML` and `CSS` but can also include JavaScript.
 
 ![DNS](https://upload.wikimedia.org/wikipedia/commons/7/7e/Dns-rev-1.gif)
 
-Cited: Б.Өлзий. (2016, April 14). DNS. Retrieved March 31, 2021, from https://en.wikipedia.org/wiki/File:Dns-rev-1.gif
+Source: Б.Өлзий. (2016, April 14). DNS. Retrieved March 31, 2021, from https://en.wikipedia.org/wiki/File:Dns-rev-1.gif
 
 
 
