@@ -16,7 +16,7 @@ You might have a better idea if you see the logos. The following are logos of th
 
 ![Mozilla Firefox](https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg-high-res.fbc7ffbb50fd.png)
 ![Google Chrome](https://i.pinimg.com/originals/0a/6b/c7/0a6bc77193c559f6e6c986bbf87227c6.png)
-![Safari](https://toppng.com/public/uploads/preview/apple-safari-logo-11549680208swuyqxp97v.png)
+![Safari](https://support.uakron.edu/wiki/images/d/d4/Safari-logo.png)
 ![Opera](https://pngimg.com/uploads/opers/opers_PNG25.png)
 ![Internet Explorer](http://guiadeinternet.com/files/2011/11/Internet_Explorer_9.png)
 
