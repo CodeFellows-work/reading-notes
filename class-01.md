@@ -61,15 +61,22 @@ From the very top, the **HTML** _!Doctype_ will be defined to let you know of th
 Within the `<body>` tag you will see other tags that can determine the size of the lettering - that will be used to explain the heading or title of the webpage, as well as other content like descriptions, or the actual article itself. What is important  is that between the `<body>` tags will display the webpage to the users. **IT IS IMPORTANT THAT EACH TAG HAS AN OPENING AND A CLOSING TAG. `<>` = open `</>` = close**
 The following is a code snippet that may help you understand the structure of `<html>`: 
 
-```` <!DOCTYPE html>
+``` <!DOCTYPE html>
+
      <html> 
+     
         <head> </head> 
+        
           <body>
             <h1> This is a Header tag. Heading or title is here </h1> 
+            
               <p> This is a paragraph tag that can fit an introduction or description or even the main article </p> 
+              
             <h2> This can be a sub heading as it is a smaller size header tag. Header tags go to <h6> </h2> 
+            
           </body> 
-      </html> ```` 
+          
+      </html> ```
         
             
 
