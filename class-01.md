@@ -86,7 +86,7 @@ The following is a code snippet that may help you understand the structure of `<
 Now that we covered the structure, and the main tags that are used, lets briefly cover the attributes. So what are attributes? Attributes are made up of a name and a value sepaerated by an equals sign, and provide more information regarding the contents of an **element**. An element is what is between the tags. For instance, `<html>` the element is html. So if we include an attribute the element will provide more information. 
 As mentioned in an attribute there is an attribute name and a value. The attribute name will indicate what the information is. The value seperated by the equals sign will define or set the information that the attribute name has in store. For example, 
 
-     <p lang="en-us"> This sentence is in English </p. 
+     <p lang="en-us"> This sentence is in English </p> 
 
 The attribute name in this example is "lang" which indicates that a language is used within the element. Then it is seperated by an equals sign to set the value which in this case it is "en-us" and this defines what the language is which is English in this case. 
 
