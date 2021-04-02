@@ -65,7 +65,11 @@ The following is a code snippet that may help you understand the structure of `<
 
      <html> 
      
-        <head> </head> 
+        <head>
+        
+          <title> This is the title of the page. This can not be seen in the main contents of the page, but can be seen at the top of your browser </title> 
+          
+        </head> 
         
           <body>
           
