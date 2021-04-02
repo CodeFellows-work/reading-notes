@@ -68,6 +68,7 @@ The following is a code snippet that may help you understand the structure of `<
         <head> </head> 
         
           <body>
+          
             <h1> This is a Header tag. Heading or title is here </h1> 
             
               <p> This is a paragraph tag that can fit an introduction or description or even the main article </p> 
@@ -76,7 +77,7 @@ The following is a code snippet that may help you understand the structure of `<
             
           </body> 
           
-      </html> 
+      </html> ``
         
             
 
