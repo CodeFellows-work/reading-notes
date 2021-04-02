@@ -54,6 +54,7 @@ As you can see from the picture above The DNS act like telephone books for your 
 ## Understanding HTML Structure, Markup, Tags and Elements 
 
 If you go to to any website article, or even an article in a newspaper - You'll understand that the words that need to be portrayed to the reader, must be be organized. Meaning that there is almost always going to be a header that will catch your attention regarding whatever subject, an introduction that will hook you into reading more of the article, and finally the subsections of the article seperated by smaller titles. HTML works in a similar if not the same fashion. If you look at the picture below, you can see more of a clearer understanding on how this may look like in HTML. 
+
 ![HTML Structure](https://3.bp.blogspot.com/-sgm6BBz6KbM/VuarmPKRJ1I/AAAAAAAAG4Q/5GDCRhO09IgiCE2DQXhA0OVaxlylGWvvw/s1600/html-structure.png)
 
 
