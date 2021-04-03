@@ -164,7 +164,7 @@ So lets use the example of the list elements and use it with the `<div>` element
          <div id="header"> <!-- the id attribute is used to attatch an identification to the div element which is called "header" --> 
          
          <ul> 
-               <li> <a href="index.html>Home </a> </li>    <!-- you can see that an anchor tag or <a> element is used to internally link the following text to the respective                                                                      navigational positions within the web page -->  
+               <li> <a href="index.html>Home </a> </li>    <!-- you can see that an anchor tag or <a> element is used to internally link the following text -->                        
                <li> <a href="about.html>About </a> </li>
                
                <li> <a href="contact.html>Contact </a> </li> 
