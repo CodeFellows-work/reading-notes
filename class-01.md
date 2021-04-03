@@ -261,4 +261,18 @@ As seen in the code snippet from the `<articles>` section, you'll notice somethi
 
 Again using the example code snippet from the `<article>` section you will also notice something that looks like this: `<figure>` and `<figcaption>`. These elements can be used to contain any content that is referenced from the main flow. These elements does allow use of a wide variety of content and not just images. For instance you can provide, images, videos, grpahs, diagrams, code samples, or even just text. `<figure>` is the content and the `<figurecaption>` as the name suggests is the caption for that content. 
 
+## Sectioning Elements 
+
+Just because HTML5 is newer than the traditional HTML, does not mean we abandon all the old ways. In HTML5 we can use `<div>` elements once again to group together related elements. 
+
+## Linking Around Block-Level Elements 
+
+The `<a>` element or the anchor tag, is also still used within HTML5 and can be used to make an entire block into a link. 
+
+## Compatability With Older Browsers 
+
+HTML5 is still relatively new. Therefore, there will be some browsers that still can not understand HTML5. However, there is still a solution. What you can do to make older browsers understand HMTL5 if include a snippet of CSS that will render neww elements into block-level elements. Furthermore to style using CSS on older browser you need to include JavaScript which is known as **HTML5 shiv** or **HTML5 shim**. 
+
+# <ins>Process and Design</ins> # 
+
 
