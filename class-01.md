@@ -274,5 +274,14 @@ The `<a>` element or the anchor tag, is also still used within HTML5 and can be 
 HTML5 is still relatively new. Therefore, there will be some browsers that still can not understand HTML5. However, there is still a solution. What you can do to make older browsers understand HMTL5 if include a snippet of CSS that will render neww elements into block-level elements. Furthermore to style using CSS on older browser you need to include JavaScript which is known as **HTML5 shiv** or **HTML5 shim**. 
 
 # <ins>Process and Design</ins> # 
+---
+Before beginning to create your webpage you should always remember that there has to be some kind of motivation that goes into it. For example, who your bnuilding the webpage for? What will you do to make your webpage stand out compared to others? What do you want your users to achieve while using your webpage? What information is needed for your users? And finally how many visitors are you expecting? These questions should be answered before or during your outline of your webpage to make your web page a success. 
 
+Once you have finalized your answers to creating your webpage, you must also think of the user experience that is needed to make your site comfortable and easy to use. For this, you need to understand and formulate a good organization of your webpage. For instance, Creating a webpage map. 
+
+![Site Map](https://i.pinimg.com/originals/1c/c5/f4/1cc5f4ec000969f11eedf4dbe0f8c9d8.png)
+
+Source: Personal page Sitemap - Editable personal WEBSITE sitemap to plan your blog or personal WEBSITE. visualize the STRUCTURE...: WEBSITE SITEMAP, how to Plan, web design. (n.d.). Retrieved April 03, 2021, from https://www.pinterest.com/pin/464011567854073042/
+
+The above image is a simple diagram of what could be your Site map. With this you can more easily understand the flow of your webpage and understand where your contents need to go. 
 
