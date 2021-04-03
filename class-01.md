@@ -118,6 +118,33 @@ So now you know clearly how to declare what type of document you will be writing
 
 ``<head> </head> <body> <h1></h1> <p></p> </body>`` 
 
+With that being said, you can add an **id** attribute to any of these elements. What is an **id** attribute? An id attribute is used to identify an element from other elements that are on your page. This attribute is also known as a **global** attribute because it can be used on any element provided by HTML. 
+
+So how do we use an **id** attribute? the value of the **id** attribute should start with a letter or an underscore and not a number or special character. Each **id** attribute has to be unique so if you want to use more than one you will have to diffrenciate them. Here is an example: 
+
+`<p id="pullquote">...</p>` 
+
+With this attribute you name that element to call that specific element when needed. 
+Another attribute that is important to cover is the **class** attribute. This attribute is also used with CSS and will change the style of whatever element uses the same class. 
+
+Here is how you can create and then call a **class** attribute: 
+
+     <html>
+         <head>
+               <style> <!-- this is CSS --> 
+               
+               h1.exampleClass {  <!-- h1 is where the class is and the "exampleClass" is the name of the class --> 
+                    color: blue; <!-- this will make h1 into the color blue --> 
+                    }
+               </style> 
+         </head> 
+         <body> 
+         
+         <h1 class="exampleClass"> EXAMPLE </h1> <!-- the class has been called and the color is blur because it was set from the above CSS -->
+         
+         </body>
+     </html>
+
 
 
 
