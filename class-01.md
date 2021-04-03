@@ -308,3 +308,21 @@ We may have our own solutions to a problem that may seem simple, but when coding
 
 As mentioned in the previous set of notes, computers think differently. So when a computer looks at a hotel, a car, or even people, the computer has no idea what these things are. Computers run on data and will need a person who knows what these things are to define it for them. Computer programming will introduce these things mentioned by representing them through the use of an **Object**. 
 So in our example of a hotel, a car, or people, we will represent them using an **object**. We can then define these objects to have their specific **properties**. For instance, with the **object** "hotel" we can define it to have **properties** such as the name, how many rooms available, and ameneties. Now the computer will know what a Hotel is (up to the entered data). Next we can define the events regarding the object hotel. For instance, the **Event** "book" occurs when a reservation is made. We can even add another event "cancel"  when the reservation is cancelled. **Events** are bascially the interaction that occurs with the objects and change the value of the properties that have been set. **Methods** in this example can change the values or retrieve the values stored in the objects properties. 
+
+### Script in Web Pages 
+
+So now that we understand how a computer can interact with the world, by creating objects with properties, events, and methods, how are we supposed to incorperate this within a webpage? Just like the example of how the computer can see the world (in our example it was a hotel), in the same way the computer can create a model with webpage. For instance, 
+if you open up a webpage the computer can see the webpage as a window object, with the properties of the location link. Or object type: document, with properties of the URL, modified date, and the title of the webpage. Going further, you can add an event so that when a page loads, the computer can know when the page assets have finished loading, when something is clicked - it is when a user has clicked something with a mouse on the webpage, or even a keypress - when a user presses a key while on the webpage. We can even add a method so that the computer will understand that with a method of write(), a user will be able to add new content to a webpage. 
+
+### Creating JavaScript
+
+When finally creating JavaScript for your webpage, it is just like HTML as it is a text document - but instead will use a ".js" instead of a ".html". So we can create a file and save it as a .js file. In addition we will place that file into a new folder for all JavaScript. Now once you have some script written you can go to your HTML in the editor and call the JavaScript file using the `<script>` element with the `src` attribute to get the file. Here is an example combining HTML and JavaScript:
+
+            <html>
+               <head> <title> This is the title! </title> </head> 
+                 <body> 
+                    <h1> example heading </h1> 
+                       <script src ="js/exampleJavaScriptFile.js"></script>
+                 </body> 
+            </html>
+
