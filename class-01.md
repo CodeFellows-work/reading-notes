@@ -145,7 +145,7 @@ Here is how you can create and then call a **class** attribute:
          </body>
      </html>
 
-Now that we covered some of the attributes, notice how every time you use a `<h1>, <p>` element the browser will start whatever is between those tags on a new line. This is because these elements are known as block elements. Another element that are considered block elements is the list elements which is `<ul>` or unordered list (this will display bullet points) and the `<ol>` which is a numbered list. `<li>` is the list elements that will be wrapped around either `<ul>` or `<ol>`. For example, 
+Now that we covered some of the attributes, notice how every time you use a `<h1>, <p>` element the browser will start whatever is between those tags on a new line. This is because these elements are known as **block elements**. Another element that are considered block elements is the list elements which is `<ul>` or unordered list (this will display bullet points) and the `<ol>` which is a numbered list. `<li>` is the list elements that will be wrapped around either `<ul>` or `<ol>`. For example, 
 
      <ul> 
           <li> this is the first bullet point </li>
@@ -153,6 +153,9 @@ Now that we covered some of the attributes, notice how every time you use a `<h1
           <li> this is the third bullet point </li> 
      </ul>
 
+Remember that **block elements** start on a new line within the browser. So what are elements that dont start on a new line? This is called **inline elements**. 
+You wont always want a new sentence to start on a new line, thus creating the necessity for **inline elements**. Some example inline elements are `<a>` (anchor tags) `<b>` (bold text element) `<em>` (emphasized text) or `<img>` elements. 
 
+So the next you might want to know is how to group all yopur content together. You may want to do this if there is content that need to be in the same space together. Such as a "Home", "About", or "Contact" links. It'll be pretty troublesome if you spread those all out within your web page. To group text and elements together, lets introduce the `<div>` element. 
 
 
