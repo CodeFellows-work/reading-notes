@@ -131,10 +131,10 @@ Here is how you can create and then call a **class** attribute:
 
      <html>
          <head>
-               <style> <!-- this is CSS --> 
+               <style>             <!-- this is CSS --> 
                
-               h1.exampleClass {  <!-- h1 is where the class is and the "exampleClass" is the name of the class --> 
-                    color: blue; <!-- this will make h1 into the color blue --> 
+               h1.exampleClass {   <!-- h1 is where the class is and the "exampleClass" is the name of the class --> 
+                    color: blue;   <!-- this will make h1 into the color blue --> 
                     }
                </style> 
          </head> 
@@ -144,6 +144,14 @@ Here is how you can create and then call a **class** attribute:
          
          </body>
      </html>
+
+Now that we covered some of the attributes, notice how every time you use a `<h1>, <p>` element the browser will start whatever is between those tags on a new line. This is because these elements are known as block elements. Another element that are considered block elements is the list elements which is `<ul>` or unordered list (this will display bullet points) and the `<ol>` which is a numbered list. `<li>` is the list elements that will be wrapped around either `<ul>` or `<ol>`. For example, 
+
+     <ul> 
+          <li> this is the first bullet point </li>
+          <li> this is the second bullet point </li> 
+          <li> this is the third bullet point </li> 
+     </ul>
 
 
 
