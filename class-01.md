@@ -194,4 +194,70 @@ Another thing to note when using this element is the sizing. So, within the `<if
 Last thing, you may want to understand what the `<meta>` is. `<meta>` will most likely be placed within your `<head>` element and is not visible to users. `<meta>` is essentially the description of your webpage and will provide information such as the description,  any keywords for the search engine, robots, the author of the webpage, a pragma or caching page, and the expiration of cache. 
 
 # <ins>HTML5 Layout</ins> #
+---
+Up until now, traditional HTML has been covered. As mentioned before regarding the history of HTML, there exists one more version of HTML that is currently in the process of being fully updated. This is HTML5. Starting with the layout, with traditional HTML web developers use the `<div>` elements to create the structure of the page. HTML5 introduces a new set of elements that will allow developers to divide up the parts of the webpage. 
+
+## Headers and Footers 
+
+Starting with the headers and footers ( `<header>` `<footer>` ), in HTML5 the `<header>` element is placed on the top of the page and can include the site name and the main navigations such as the "home", "about", or "contact" navigational links you may find on most webpages. The `<footer>` will contain the copyright information you might've seen on some webpages in small text. This is an example of how the `<header>` and `<footer>` is used: 
+
+          <header>
+               <h1> This can be the title displayed to users </h1> 
+               <nav> 
+                    <ul> 
+                         <li><a href="" class ="current"> Home</a> </li> 
+                         <li><a href=""> About </a></li> 
+                         <li><a href=""> Contact Us </a></li> 
+                    </ul> 
+               </nav> 
+          </header> 
+          <Footer> CopyRight 2021 </footer> 
+## Navigation 
+
+In HTML5 the `<nav>` element (as seen in the example above) is used to wrap the navigation block for site navigation. 
+
+## Articles 
+
+The `<article>` element is used to house articles, blogs, forum posts, comments, piece of independent content. `<article>` elements can also have their own `<header>` and `<footer>` elements. Let'e take a look at a snippet of how `<article>` elements are used: 
+
+          <article> 
+               <figure> 
+                    <img src="images/example.jpg" alt="example" />   <!-- The image and its caption all within the article --> 
+                    <figurecaption> Example </figcaption> 
+               </figure> 
+                    <hgroup> 
+                       <h2>Example #1 <h2>                <!-- Our heading groups --> 
+                       <h3>Example #2 </h3> 
+                    </hgroup> 
+                        <p> This is an example paragraph inside of an article! </p> 
+           </article> 
+This is one grouping for an article for one subject. 
+
+## Asides 
+
+An `<aside>` element has two purposes that depend on whether it is nested in between an `<article>` or not. If the `<aside>` element is nested in between an `<article>` element, then it will contain information regarding that article. If the `<aside>` element is used outside of the `<article>` element, than whatever is nested in between the `<aside>` element will contain information related to the site itself. Let's take a look at how the `<aside>` element is used outside of an `<article>`:
+
+               <aside>
+                    <section class="example1"> 
+                         <h2>Example 1</h2> 
+                         <a href=""> This can be an example for example 1</a> 
+                    </section> 
+                    <section class="example2"> 
+                         <h2>Example 2</h2> 
+                         <a href=""> This can be an example for example 2 </a> 
+                    </section> 
+               <aside> 
+               
+## Sections 
+
+As seen in the above code snippet, a `<section>` element will group related content together. **typically each section will have its own heading**. One thing that should be notes is that the `<section>` element should not be used to wrap the entire page with - unless the web page only has that one peice of content. 
+
+## Heading Groups 
+
+As seen in the code snippet from the `<articles>` section, you'll notice something that looks like this: `<hgroup>`. As mentioned in the comments, this is a heading group. This element will group together any of the 6 <h> elements that is more than 1. With this element you can create a title within an element and then a subtitle within an element. 
+     
+## Figures 
+
+Again using the example code snippet from the `<article>` section you will also notice something that looks like this: `<figure>` and `<figcaption>`. These elements can be used to contain any content that is referenced from the main flow. These elements does allow use of a wide variety of content and not just images. For instance you can provide, images, videos, grpahs, diagrams, code samples, or even just text. `<figure>` is the content and the `<figurecaption>` as the name suggests is the caption for that content. 
+
 
