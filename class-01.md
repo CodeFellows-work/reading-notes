@@ -101,6 +101,7 @@ In 1998, XML was released and it was supposed to have new markup languages. Over
 1. attributes names needed to be lowercased
 1. depreciated elements were no longer used
 1. every element that was opened inside another element needed to be closed in that same element 
+
 ---
 
 ## HTML Language 
