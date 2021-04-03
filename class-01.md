@@ -95,6 +95,12 @@ The attribute name in this example is "lang" which indicates that a language is 
 
 # <ins>Extra Markup</ins> #
 ---
+`html` has quite the history. There have been multiple versions of `html` but we will cover starting from HTML4. HTML4 was released in 1997. All the elements that were covered in these notes, are available within HTML4. There are other attributes that can be used witth HTML4 which include for example, `<center>` or `<font>`, but these are mostly done with CSS. 
+In 1998, XML was released and it was supposed to have new markup languages. Overal, the HTML4 and XML combined in 2000 which created something called **XHTML**. This language basically had more stricter guidlelines compared to the previous versions of HTML. For instance, 
+1. every element needs a closing tag except empty elements such as `<img />`
+1. attributes names needed to be lowercased
+1. depreciated elements were no longer used
+1. every element that was opened inside another element needed to be closed in that same element 
 
 
 
