@@ -174,4 +174,8 @@ So lets use the example of the list elements and use it with the `<div>` element
          
 The following code is all within the header of the webpage as defined by the id attribute. 
 
+Now you know how to group all the contents together and again since this is a **block** the text will start on a new line. So now how about **inline** groupings you may want to include in your webpage? This is when we could use the `<span>` element. The main reason you may find yourself using this element is so you can control the text within the `<span>` element with CSS. Here is an example of how you can use the `<span>` element to keep text all within the same area without starting a new line: 
+
+          <p> this is an <span>example</span> text </p> 
+Now that we have the "example" wrapped in `<span>` we can come back with CSS to change only what is wrapped under the `<span>` element while maintaining the grouping of the text without starting a new line. 
 
