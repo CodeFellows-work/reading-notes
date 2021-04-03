@@ -110,6 +110,9 @@ Starting with the `<!DOCTYPE>`. What is it? Becuase there are different versions
 
 `<!DOCTYPE html>` 
 
+Now how about if you wanted to make a comment next to some code and not make it part of the code? This is how: 
+
+`<!-- This is a comment -->` 
 
 
 
