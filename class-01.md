@@ -179,3 +179,16 @@ Now you know how to group all the contents together and again since this is a **
           <p> this is an <span>example</span> text </p> 
 Now that we have the "example" wrapped in `<span>` we can come back with CSS to change only what is wrapped under the `<span>` element while maintaining the grouping of the text without starting a new line. 
 
+Now, if you look thorugh webpages for businesses what you'll notice is a map off to the side or maybe even a dedicated page for a map. How do they do it? of course using this method isn't only for maps, but it kind of gives you an idea of how this element works. The `<iframe>` element will allow you to include a window from another source into your own webpage! 
+
+Another thing to note when using this element is the sizing. So, within the `<iframe>` element you will need to adjust the sizing using the `<width>` `<height>` `<src>` (for the source of the window) and maybe other elements to make your window more friendly such as `<scrolling>` `<frameborder>` and `<seamless>`. An example code snippet of how this may look is like this: 
+
+          <iframe 
+               src="https://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed"
+               width="450"
+               height="350"
+               frameborder="0" 
+               scrolling="no">
+          </iframe> 
+    
+Last thing, you may want to understand what the `<meta>` is. `<meta>` will most likely be placed within your `<head>` element and is not visible to users. `<meta>` is essentially the description of your webpage and will provide information such as the description,  any keywords for the search engine, robots, the author of the webpage, a pragma or caching page, and the expiration of cache. 
