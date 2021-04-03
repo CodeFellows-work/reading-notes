@@ -291,7 +291,20 @@ Source: What is wireframe. (2017, May 17). Retrieved April 03, 2021, from https:
 
 The image shows an example of a wireframe. What this is is basically a process of designing how your webpage looks like. This is a good way to understand how to group things together with your code, and where to place them exactly. This is a good method of organization and will heighten your chances of a good webpage. 
 
-# <ins>The ABC of Programming</ins> #
+# <ins>JavaScript</ins> #
 ---
+JavaScript will make your webpage functional. Meaning that users will be able to interact with your webpage. HTML and CSS provide the visual content for users to browse and enjoy depending on how well you have designed your web page, but JavaScript will allow your users to interact with the content within your webpage. 
 
+### What is Script? 
 
+Script is a series of instructions that will tell your computer what to do. In a way, it is a form of communication with the computer so that the computer can perform the functions that you command. So how do you go about creating script? You must first **define a goal** - define what you want the computer to achieve. Then **design the script**. However, just like our personal goals, we need to take small steps in order to successfully achieve them. Unless we are super-human we will not be able to out-run Usain Bolt, however with small steps in our goal it might be possible to some day out run him. In that sense, we must also break down our script into smaller goals and combine them to achieve a bigger goal. 
+Lastly, as you split the goal into smaller goals, code each step. 
+
+### Think Like a Computer 
+
+We may have our own solutions to a problem that may seem simple, but when coding you must think like a computer because computers think differently. **Computers solve problems programmtically**. Meaning that they will only follow the set of instructions you give them. For instance, say we look at a group of colors and are told to point out a color that has been called. As humans we can simply point to the called color and call it good. A computer will not have that luxery unless programmed to do so. You must tell the computers what each color is, and then tell the computer to scan through the colors, and then you must also tell the computer to define what color that has been called out. 
+
+### Computers and the World around them 
+
+As mentioned in the previous set of notes, computers think differently. So when a computer looks at a hotel, a car, or even people, the computer has no idea what these things are. Computers run on data and will need a person who knows what these things are to define it for them. Computer programming will introduce these things mentioned by representing them through the use of an **Object**. 
+So in our example of a hotel, a car, or people, we will represent them using an **object**. We can then define these objects to have their specific **properties**. For instance, with the **object** "hotel" we can define it to have **properties** such as the name, how many rooms available, and ameneties. Now the computer will know what a Hotel is (up to the entered data). Next we can define the events regarding the object hotel. For instance, the **Event** "book" occurs when a reservation is made. We can even add another event "cancel"  when the reservation is cancelled. **Events** are bascially the interaction that occurs with the objects and change the value of the properties that have been set. **Methods** in this example can change the values or retrieve the values stored in the objects properties. 
