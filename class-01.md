@@ -285,3 +285,13 @@ Source: Personal page Sitemap - Editable personal WEBSITE sitemap to plan your b
 
 The above image is a simple diagram of what could be your Site map. With this you can more easily understand the flow of your webpage and understand where your contents need to go. 
 
+![Wireframe](https://d1dlalugb0z2hd.cloudfront.net/handbooks/agile-handbook/wireframe/02-newspaper-site-wireframe-example.png)
+
+Source: What is wireframe. (2017, May 17). Retrieved April 03, 2021, from https://www.archimetric.com/what-is-wireframe/
+
+The image shows an example of a wireframe. What this is is basically a process of designing how your webpage looks like. This is a good way to understand how to group things together with your code, and where to place them exactly. This is a good method of organization and will heighten your chances of a good webpage. 
+
+# <ins>The ABC of Programming</ins> #
+---
+
+
