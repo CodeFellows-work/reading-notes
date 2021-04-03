@@ -114,6 +114,9 @@ Now how about if you wanted to make a comment next to some code and not make it 
 
 `<!-- This is a comment -->` 
 
+So now you know clearly how to declare what type of document you will be writing in and also how to make comments. As you recall from previous sections of these notes, you may remember the other elements that we have used thus far. For instance: 
+
+``<head> </head> <body> <h1></h1> <p></p> </body>`` 
 
 
 
