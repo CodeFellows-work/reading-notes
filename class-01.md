@@ -104,7 +104,7 @@ In 1998, XML was released and it was supposed to have new markup languages. Over
 ---
 Overall, all the examples of the `html` text we have used thus far follow the guidelines of XML. There is also HTML5 which is a work in progress. In this language, authors do not need to close tags and new elements and attributes will be introduced. 
 ---
-## HTML Language ## 
+## HTML Language 
 Now that we have briefly discussed some of the history of HTML let us go deeper to try and understand how to write this language. 
 
 Starting with the `<!DOCTYPE>`. What is it? Becuase there are different versions of HTML we need to include which type of HTML we are going to use. With proper declaration of the type of **!DOCTYPE** this will allow the browser to load the contents of the markup correctly. So here is how an html doctype would look as code: 
