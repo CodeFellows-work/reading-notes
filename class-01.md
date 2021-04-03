@@ -158,4 +158,20 @@ You wont always want a new sentence to start on a new line, thus creating the ne
 
 So the next you might want to know is how to group all yopur content together. You may want to do this if there is content that need to be in the same space together. Such as a "Home", "About", or "Contact" links. It'll be pretty troublesome if you spread those all out within your web page. To group text and elements together, lets introduce the `<div>` element. 
 
+Inside a `<div>` element you can group together the content you need in the same area so that you can better organize your web page. 
+So lets use the example of the list elements and use it with the `<div>` element to group together a list of navigational links that can be used in your web page.
+
+         <div id="header"> <!-- the id attribute is used to attatch an identification to the div element which is called "header" --> 
+         
+         <ul> 
+               <li> <a href="index.html>Home </a> </li>    <!-- you can see that an anchor tag or <a> element is used to internally link the following text to the respective                                                                      navigational positions within the web page -->  
+               <li> <a href="about.html>About </a> </li>
+               
+               <li> <a href="contact.html>Contact </a> </li> 
+         </ul> 
+         
+         </div> 
+         
+The following code is all within the header of the webpage as defined by the id attribute. 
+
 
