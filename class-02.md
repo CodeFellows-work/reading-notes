@@ -14,6 +14,10 @@ HTML uses a set of 6 headings with all different sizes `<h1>`being the largest a
 Source: 
 HTML headings. (n.d.). Retrieved April 05, 2021, from https://www.tutorialrepublic.com/html-tutorial/html-headings.php
 
-`<h1>` mainly used for the main headings while the rest of the headings are more for subheadings. 
+`<h1>` mainly used for the main headings while the rest of the headings are more for subheadings. A paragraph element will contain one or more sentences, and a start of a pragraph will always start on a new line. This is a paragraph tag: `<p> </p>`. 
+What we covered so far are some structural markups. The headers and the subheaders, as well as the paragraphs which form sentences on new line (everytime a pragraph tag is used). 
+
+### Bold and Italic ### 
+
 
 
