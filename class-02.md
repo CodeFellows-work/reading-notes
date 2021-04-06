@@ -183,8 +183,18 @@ Each statement always starts on a new line and will end with a semicolon. Either
 
 Some statements will include code blocks which is basically code that is surrounded by curly brackets. Semi colons are not used after these curly brackets. Here is an example: 
 
-          if(var i = 0; i > 3; i++) {
+          if(var i = 0; i < 3; i++) {
             console.log(i); 
            }
-    
+ 
+ Code blocks is a good way to organize or group together many statements. This also helps the code to be more readable. 
+ 
+ ### Comments ### 
+Remember in HTML to comment you use `<!-- this is the commment -->`. However in JavaScript to comment you simply need to do `//`. Again comments are a good way to help someone that is reading your code understand your code, as well as keep yourself organized so that you can go back to what you have written and understand what the code will do without trying to figure it out all the time manually. 
+
+### Variables ### 
+**Variables** are what you use to store information. This is very useful because with the stroed data you can add more information and use those variables to keep storing data without having to manually write code for every bit of information you need. Let's use the example code above. The variable "i" has the value of 0 stored. Everytime the the if statement runs (as long as "i" is less than 3), the variable "i" will add 1 and also log to the console. This is a better method than to `console.log` everytime manually until "i" is greater or equal to 3. 
+      
+      
+      
     
