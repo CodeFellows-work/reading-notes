@@ -152,6 +152,8 @@ You also have the options to set rules for an HTML page with CSS internally by u
  ----------|----------
  Universal | `* {} ` selects all elements on the page
  Type Selector | `h1, h2, h3 {} ` Targets `<h1>` `<h2>` `<h3>` 
- 
+ Class Selector | `.example {}` Targets whatever element that uses the `.example` class 
+ Id Selector | `# example {}` Targets id's with the id of `# example` 
+Child Selector | `li>a {}` Targets any `<a>` element within the `<li>` element and only within the `<li>` element 
 
 
