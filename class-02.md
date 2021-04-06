@@ -32,6 +32,24 @@ Let's say you wanted to use CO2 for a chemestry assignment. This would call for 
       <p> There is too much CO<sub>2</sub></p>
       
 ### White Space ### 
+When there are mutliple spaces next to each other in between words, this is known as **white space collapsing**. Sometimes developers will do this so that a piece of code is easier to read. The example that will be shown will have code with white spaces, however the output of the code will remain the same as if the spaces were not there in the first place. 
+
+        <p>This is a sentence</p> 
+        <p>This    is a sentence</p> 
+        <p>This       is a    sentence</p> 
+        
+### Line Breaks aand Horizontal Rules ###
+How about using the same paragraph but starting some words on a different line? That is what the `<br>` tag or element can be used for. This is an example: 
+         
+         <p>This is all <br />going to be within the same <br />paragraph element but some <br />words will be on different lines</p>
+         
+The example above will have the the paragraph ouputted like so: 
+
+          This is all 
+          going to be within the same 
+          paragraph element but some 
+          words will be on different lines 
+          
 
 
 
