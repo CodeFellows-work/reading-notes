@@ -273,6 +273,81 @@ Now, for expressions to work you will need something thats called operators.
 Operators | Example 
 ----------|---------
 Assignment Operators | `numbers[2] = 10` used to assign 
+Arithmetic Operators | `numberExample = 2 + 3` Performs math 
+String Operators | `helloWorld = "hello" + "world"` combines two strings 
+Comparison Operators | `compareValue = 1 > 2` compares the two values in this case it returns false
+Logical Operators | `logicalValue = (1 > 2) && (3 > 4)` combines the expressions and returns either true or false 
 
+To expand on the **arithmetic** operators these are the operators we can use: `+` addition, `-` subtraction,`/` division, `*` multiplication, `++` increment, `--` decrement, and `%` modulus which is the remainder from the division. 
+
+## Decisions and Loops ## 
+In these set of notes, we will now take a look at how we can evaluate our code to see if our scripts match the expected results from the evaluations decide which path to go, and understand how to repeat the same steps with less code. 
+
+### Decision Making ### 
+There might be times where you might have to make code to make decisions. Let's say there's a constant counter and it does one thing as long as the number stays less than 50. But now you make another thing happen if the counter counts passed that number. It's either one thing that occurs or the other. 
+There's usually two steps involved when making a decision. 
+1. Expression is evaluted and then returns a value
+1. A set of instructions are made within another possible situation 
+
+This is an example of how code can make those decisions: 
+
+      if(score < 50) {
+        document.write("The number is less than 50!") 
+      } else{
+        document.write("The number has exceeded 50!")
+        } 
+        
+In the example code written above you see that "if the score is less than 50 and as long as the score is less than 50 then write that the number is less than 50". Eventually this number will be over 50 (as long as the counter persists) and you will need to write instruction for that given situation. So you write else or "if the number does not equal 50 then write that the number has exceeded 50", assuming the counter is incrementing positively. 
+
+### Comaprison and Evaluation ### 
+You can compare a value in the script to what you might expect it to be. The end result of is going to be either true or false. 
+
+Operators | Description  
+----------|---------
+`==` | equals to compares two values to see if they are the same 
+`===` | This is a strict equals to which means that the operator is checking to see that the values on each side are the exact same 
+`!=` | is not equals to comapres two values and determines if these values are not equal to each other 
+`!==` | This is a strict not equals to which means that the operator will check to see if the value is not the same
+`>` | this is the greater than operator which will check to see if the first value is greater than the other value
+`<` | this is the less than operator which will check to see if the first value is less than the other value
+`>=` | this is the greater than or equals to operator which will check to see if the first value is greater than or equal to the other value
+`<=` | this is the less than or equals to operator which will check to see if the first value is less than or equal to the other value
+
+### Logical Operators ### 
+Operators | Description
+----------|------------
+`&&` | Logical And - this operator will test more than one condition, for instance ((2>3) && (3<4)). if one returns false then it will return false as a whole. 
+`||` | Logical or - this operator will test at least one condition, for instance ((2>3) || (2<3)). if one returns true then it will return true as a whole. 
+`!` | Logical Not - this can be interpreted as the opposite of what is expressed, for instance !(2<3). This will return as false. 
+
+### If Statements ### 
+When using an `if` statement you enter a condition and as long as that condition checks true the code block within the if statement will execute. For instance: 
       
+        if(2<3) {
+        document.write("2 is less than 3!") 
+        } 
+        
+In this case the `document.write` is executed because the statement or condition was true. 
+
+### Switch Statements ### 
+When using a `switch` statement, the statement will run through each `case` or value and run that code if it matches the variable. For instance: 
+
+        switch(number) {
+        
+        case 'one' :
+          theNumber = 'numberOne';
+          break; 
+        case 'two' :
+          theNumber = 'numberTwo';
+          break;
+        case 'three' :
+          theNumber = 'numbderThree': 
+          break; 
+         default: 
+          theNumber = 'Test'
+          break; 
+          
+          }
+          
+The variable "number" will go through each of the case code. If the value within "number" matches any of the given cases then it will run the code that is with that code. If none of the cases matches the value in "number" then it will run the defualt code. The `break` keyword will tell the code editor or the interpreter that it is finished with the switch statement and proceed to the next code after. In this case we do not know which case is true because we have not assigned a value to "number". If we had assigned the value `'two'` to "number" then case 'two will execute. All cases will be nested within the curly brackets or block. 
     
