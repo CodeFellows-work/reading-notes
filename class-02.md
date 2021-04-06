@@ -169,3 +169,5 @@ A way to make sure that CSS will override this rule is by using the `!important`
 
 ### Inheritance ### 
 
+If you specify a `font-family` or `color` properties they will apply to most of the child elements, and that is because these properties are inherited. This makes for a simpler way of styling your sheets. On the other hand `background-color` or any border properties will not be inherited, and if they were your style sheets can look very messy. You also have the option to force inheritance to a property by adding `inherit` so that the properties can inherit the values of its parent element. 
+
