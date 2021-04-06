@@ -149,7 +149,9 @@ You also have the options to set rules for an HTML page with CSS internally by u
  Selectors will let you choose where to style. 
  
  Selctor   |   Example 
- ---------------------
- Universal | `* {} ` 
+ ----------|----------
+ Universal | `* {} ` selects all elements on the page
+ Type Selector | `h1, h2, h3 {} ` Targets `<h1>` `<h2>` `<h3>` 
+ 
 
 
