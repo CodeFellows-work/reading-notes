@@ -30,6 +30,7 @@ This can also work for dates.
 Let's say you wanted to use CO2 for a chemestry assignment. This would call for a **Subscript** or `<sub>`. The code for the proper way to write CO2 would look like this: 
 
       <p> There is too much CO<sub>2</sub></p>
+      
 ### White Space ### 
 
 
