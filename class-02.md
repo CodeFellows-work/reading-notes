@@ -18,6 +18,10 @@ HTML headings. (n.d.). Retrieved April 05, 2021, from https://www.tutorialrepubl
 What we covered so far are some structural markups. The headers and the subheaders, as well as the paragraphs which form sentences on new line (everytime a pragraph tag is used). 
 
 ### Bold and Italic ### 
+To make words appear in **bold** lettering, in HTML you use the `<b>` element to wrap around the word that you want to make bold. This is an example of a *semantic* markup. 
+To make words appear *italicized*, in HTML you use the `<i>` element to wrap around the word that you want to make italic. This is another example of a *semantic* markup. 
+
+### Superscript and Subscript ### 
 
 
 
