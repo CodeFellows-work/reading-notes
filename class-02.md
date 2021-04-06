@@ -161,4 +161,11 @@ General Sibling Selector | `h1~p {}` Targets more than one `<p>` element nested 
 
 ### CSS Rules Cascade ### 
 
+So CSS has a set of rules meaning CSS has an order of precedence. If you have to of the same selectors, CSS will choose the latter of the two - meaning the second rule will be chosen over the first one. A better way of understanding is - the most recent rule you have incorperated will take precedence. This is called the **Last Rule**. 
+
+Another rule CSS abides by is with **specificity**. Meaning CSS will take the rule that is more specific over the one that is less specific. 
+
+A way to make sure that CSS will override this rule is by using the `!important` after the property value to ensure that this rule will take all precedence. 
+
+### Inheritance ### 
 
