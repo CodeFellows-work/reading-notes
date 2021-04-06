@@ -259,7 +259,20 @@ This is how computers start counting. What else can you do with arrays? You can 
 By doing this I just made the value "3" into "10". 
 
 ### Expressions ###
+There are two different expressions. One that will assign a value as we just have seen in the example above, or we can use two different values to return a single value. Like a simple math problem. 
 
+        //Expression assigning a value to another 
+        numbers[2] = 10; 
+        
+        //Expression assigning a single value from two different values
+        numberExample = 2 + 3 
+        
+### Operators ### 
+Now, for expressions to work you will need something thats called operators. 
+
+Operators | Example 
+----------|---------
+Assignment Operators | `numbers[2] = 10` used to assign 
 
       
     
