@@ -155,5 +155,10 @@ You also have the options to set rules for an HTML page with CSS internally by u
  Class Selector | `.example {}` Targets whatever element that uses the `.example` class 
  Id Selector | `# example {}` Targets id's with the id of `# example` 
 Child Selector | `li>a {}` Targets any `<a>` element within the `<li>` element and only within the `<li>` element 
+Descendant Selector | `p a {}` Targets the `<a>` element that is nested in the `<p>` element along with anything else inside the `<a>` element 
+Adjacent Sibling Selector | `h1+p {}` Targets the first `<p>` element nested in the `<h1>` element and nothing else
+General Sibling Selector | `h1~p {}` Targets more than one `<p>` element nested in the `<h1>` element 
+
+### CSS Rules Cascade ### 
 
 
