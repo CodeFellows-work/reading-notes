@@ -135,5 +135,21 @@ A `<link>` element followed by three attributes will be used within the `<head>`
  
 ### Using Internal Links for CSS ### 
 
+You also have the options to set rules for an HTML page with CSS internally by using the `<style>` element which will usually sit in the `<head>` element. When using this method ensure that the attribute `type` is used which equals to `"text/css"`. This indicates that the style is specified in CSS. 
+
+      <head> 
+        <style type="text/css"> 
+          body {
+            font-family: sans-serif; 
+            } 
+          </style> 
+       </head> 
+     
+ ### CSS selectors ### 
+ Selectors will let you choose where to style. 
+ 
+ Selctor   |   Example 
+ ---------------------
+ Universal | `* {} ` 
 
 
