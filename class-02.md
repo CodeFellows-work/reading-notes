@@ -234,6 +234,32 @@ As seen in the code snippet under the "statements" subheading, you will notice t
 1. Remember to use camel case lettering. So if the varible is more than one word use a smaller case to start and a captolized letter for the second word. ex. "firstName"
 
 ### Arrays ### 
+If you have multiple values you wish to store in one variable, then an **array** is a perfect solution. Arrays can store multiple values in one variable. This is how multiple values can be stored in a single variable: 
+
+        var numbers; 
+        numbers = [1,2,3,4,5]; 
+        
+This method of creating an array is called an **array literal**. Another method or technique you can use to create an array is called a **array constructor** which uses the `new` keyword followed by `Array();` with the values stored in between the parenthesis. This is how it looks: 
+
+        var numbers = new Array(1,2,3,4,5); 
+        
+ You can also write the values on a new line for every value just so long as it is within the parenthese or brackets. 
+ 
+When defining a value in an array, each value is stored within a number plane starting with "0". For instance the code snippet above in the array "numbers" the first value of the array is assigned in the "0" spot, and then the next value in the "1" spot and so on. So to call a specific value within the array you can use the variable name and the spot that the value is in surrounded by square brackets. For instance: 
+
+        numbers[3]; // This will call the 3rd place within the array which is the value "4" 
+        
+This is how computers start counting. What else can you do with arrays? You can change their values by using the method that was just shown to call a specific array. For instance let's say I wanted to replace the 2nd value with a different value. 
+
+        var numbers = [1,2,3,4,5]; 
+        
+        //update the array
+        numbers[2] = 10; 
+        
+By doing this I just made the value "3" into "10". 
+
+### Expressions ###
+
 
       
     
