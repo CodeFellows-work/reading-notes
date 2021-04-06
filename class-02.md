@@ -63,7 +63,7 @@ The output would look like this:
           This will be a sentence below the horizontal line
 
 ### Strong and Emphasis ###
-The `<strong>` tag or element is used to emphasze whatever is wrapped in between this element to show that it has a strong presence. Therefore, when using this tag, the word that is wrapped in between will output in bold lettering. 
+The `<strong>` tag or element is used to emphasize whatever is wrapped in between this element to show that it has a strong presence. Therefore, when using this tag, the word that is wrapped in between will output in bold lettering. 
 
 The `<em>` or **emphasis** tag has the ability to change the meaning of a sentence. Wrapping the `<em>` tag around a word will output the word as *italicized*.
 
