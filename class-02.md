@@ -171,3 +171,20 @@ A way to make sure that CSS will override this rule is by using the `!important`
 
 If you specify a `font-family` or `color` properties they will apply to most of the child elements, and that is because these properties are inherited. This makes for a simpler way of styling your sheets. On the other hand `background-color` or any border properties will not be inherited, and if they were your style sheets can look very messy. You also have the option to force inheritance to a property by adding `inherit` so that the properties can inherit the values of its parent element. 
 
+## Basic JavaScript ## 
+Within these set of notes, we will discuss how to read JavaScript, as well as how to give your webpage a set of instructions to follow to make it more interactive with its users. 
+
+### Statements ### 
+Something to note before we continue is that JavaScript is case sensitive. `exampleJava` is completely different than `ExampleJava`. 
+
+Each statement always starts on a new line and will end with a semicolon. Either way this makes JavaScript easier to read so it is a good rule. The semi colon basically tells the JavaScript editor or interpreter that the statement is complete. Here is an example: 
+
+          console.log("Hello Code Fellows!");  
+
+Some statements will include code blocks which is basically code that is surrounded by curly brackets. Semi colons are not used after these curly brackets. Here is an example: 
+
+          if(var i = 0; i > 3; i++) {
+            console.log(i); 
+           }
+    
+    
