@@ -94,5 +94,46 @@ The `<cite>` element is used to depict where something is from. For instance,
  
 The `<dfn>` element is used to indicate a meaning for a new term. Browsers will show whatever is wrapped in between `<dfn>` as italicized, but Safari and Google Chrome will remain as is. 
 
+### Author Details ### 
+The `<address>` element can be used to store your contact information. IT can have a physical address, a link to your email, or contain your phone number. It is like the business cards of HTML. 
+
+        <address> 
+          <p><a href="mail to: example@example.com"> 
+          example@example.com</a></p> 
+          <p>1111 example address</p> 
+        </address> 
+
+### Changes to Content ### 
+A `<del>` element will show a word that is wrapped in it with a strike-through to show that the word has been deleted from the content. 
+A `<ins>` element will show a word that is underlined to show that the word has been newly inserted in the content. 
+Similarly, the `<s>` element will show a word that has a strike-through to show that the word is no longer relevant (could be used for an ad). 
+
+## CSS Introduction ## 
+CSS will allow you to change how words and backgrounds of your content, will look like. For instance, you can align your text in a specific way, change the color for each header, or paragraph, change the fonts, sizes of fonts, font color, etc. CSS will be used extensively when making your website look pretty. 
+
+When using CSS it is best to imaging that within every element there is an invisible box, and within that box you have the power to change the way that element will look. 
+
+### Selector and Declaration ### 
+Within CSS there are two parts. The **selector** (which will select which element you want to style) and the **declaration** (which will let you choose the style for the element. For instance,
+  
+          p {     <!-- curly brackets will be used when using the selector and declaration inside of the curly brackets --> 
+            font-family: sans-serif;     <!-- font-family is used to determine the font you are going to use, sans-serif is the font used in this example --> 
+            }                            <!-- in CSS after the declaration, a semi colon will be used to specify that it is the end of your code --> 
+        
+Within the declaration there are two more parts. The **property** and the **value**. In the example shown above **font-family** is the property and **sans-serif** is the value. 
+
+### Using External Links for CSS ### 
+
+A `<link>` element followed by three attributes will be used within the `<head>` element if you want to specify a style that is found externally. The element is empty just meaning that there is no closing tag for this element when used. The attributes `href`, `type`, and `rel` are used along with the `<link>` element. For instance: 
+
+        <head> 
+          <title> Example external link </title> 
+            <link href="css/styles.css" type="text/css rel="stylesheet" /> 
+        </head> 
+        
+ `href` specifies the link, `type` specifies what the document that is being linked to and `ref` specifies the relationship between HTML and the file that it is linked to. 
+ 
+### Using Internal Links for CSS ### 
+
 
 
