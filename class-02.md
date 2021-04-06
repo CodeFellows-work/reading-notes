@@ -22,6 +22,15 @@ To make words appear in **bold** lettering, in HTML you use the `<b>` element to
 To make words appear *italicized*, in HTML you use the `<i>` element to wrap around the word that you want to make italic. This is another example of a *semantic* markup. 
 
 ### Superscript and Subscript ### 
+Let's say you want to include a math equation and it includes an exponent. The **superscript** or the `<sup>` element is the go to. For instance if you wanted an output for "x squared" your code will look like 
+ 
+      <p> The formula includes x<sup>2</sup></p> 
+This can also work for dates. 
+
+Let's say you wanted to use CO2 for a chemestry assignment. This would call for a **Subscript** or `<sub>`. The code for the proper way to write CO2 would look like this: 
+
+      <p> There is too much CO<sub>2</sub></p>
+### White Space ### 
 
 
 
