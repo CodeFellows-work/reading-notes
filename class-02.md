@@ -193,8 +193,47 @@ Some statements will include code blocks which is basically code that is surroun
 Remember in HTML to comment you use `<!-- this is the commment -->`. However in JavaScript to comment you simply need to do `//`. Again comments are a good way to help someone that is reading your code understand your code, as well as keep yourself organized so that you can go back to what you have written and understand what the code will do without trying to figure it out all the time manually. 
 
 ### Variables ### 
-**Variables** are what you use to store information. This is very useful because with the stroed data you can add more information and use those variables to keep storing data without having to manually write code for every bit of information you need. Let's use the example code above. The variable "i" has the value of 0 stored. Everytime the the if statement runs (as long as "i" is less than 3), the variable "i" will add 1 and also log to the console. This is a better method than to `console.log` everytime manually until "i" is greater or equal to 3. 
+**Variables** are what you use to store information. This is very useful because with the stored data you can add more information and use those variables to keep storing data without having to manually write code for every bit of information you need. Let's use the example code above. The variable "i" has the value of 0 stored. Everytime  the if statement runs (as long as "i" is less than 3), the variable "i" will add 1, and also log to the console. This is a better and more efficient method than to `console.log` everytime manually until "i" is greater or equal to 3.
+
+So how do we use variables? First use var in front of the variable name you want to use to define a variable. 
+
+        var example;
+    
+As you can see, we have made "example" a variable. Now we have to assign a value to this variable. 
+
+        example = 0; 
+        
+Notice that I did not include `var` when assigning the value to the variable. This is because the code snippet above this example already declared this variable as "example". Of course you can also make this one line making it: 
+
+        var example = 0; // this is called a shorthand method 
+        
+ ### Data Types ### 
+ In terms of JavaScript and other high-leveled programming languages, there are different data types. In JavaScript there is **Numerical** data types which include positive integers, negative integers, as well as decimal integers. There is also the **String** Data type which consists of any letter or character as long as they are wrapped in quotes. Lastly there is **Boolean** data types. This data type is simply going to be a true or false. 
+ 
+ ### Combine ### 
+ 
+Now lets store each of the data types covered into a variable. 
+
+        var number; //storing a number value in a variable 
+        number = 12; 
       
-      
+        var word; //storing a string value in variable 
+        word = "hello"; 
+        
+        var fast; //storing a boolean value in a variable 
+        fast = false; 
+        
+As seen in the code snippet under the "statements" subheading, you will notice that a variable can change with code written later. A variable does not have a fixed value and can change. 
+ 
+### Rules For Naming Variables ### 
+1. The name must begin with a letter and not a character or a number.
+1. The name can include numbers, letters, a dollar sign, or an underscore, but no dash or period.
+1. The name cannot be a keyword or a reserved word which is part of the language of JavaScript. For instance, your variable cannot be named var. 
+1. Remember that all variables are case sensitive.
+1. Use a name that resembles the values that will be stored in the variable, for instance "firstName" for a persons first name. This keeps everything organized. 
+1. Remember to use camel case lettering. So if the varible is more than one word use a smaller case to start and a captolized letter for the second word. ex. "firstName"
+
+### Arrays ### 
+
       
     
