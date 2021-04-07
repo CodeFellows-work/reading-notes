@@ -189,5 +189,66 @@ Using the **border-radius** property, you can round the corner edges on any box.
 
 The cool thing about the **border-radius** property is that you can also make shapes using this property. By changing the values around for each edge you can create evena  circle! 
 
+# JavaScript Decisions and Loops # 
+### Type Coercion and Weak Typing ### 
+JavaScript has the ability to convert data types behind the scenes - this is known as **type coercion**. For instance, JavaScript can convert a string to a number when comparing values such as `('2' = 2)`. This expression would evaluate to true because JavaScript will convert that string character of `'2'` into a number. 
+Because JavaScript does this, it is known as **weak typing**. Other high-leveled languages requires you to change the data types before evaluating and that is known as **strong typing**. 
 
+### Truthy Vs. Falsey ### 
+
+Falsey values can be thought of as being false. They can also be treated as if it is 0. here are some examples: 
+
+            var exampleVar = false;  // boolean false
+            var exampleVar = 0;     // the number 0 
+            var exampleVar = '';    // empty string
+            var exampleVar = 10/'score'   // not a number
+            var exampleVar; // empty variable 
+            
+Truthy values can be thought of as being true. They can also be treated as if it is 1. Here are some examples:
+
+            var exampleVar = true; // boolean true
+            var exampleVar = 1;     // the number 1
+            var exampleVar = 'not an empty string' // a string 
+            
+### Loops ###
+Loops are a way to repeat a process just as long as the expression remains true. As soon as something returns false, the loop will discontinue unless intructed to do so. Here are some ways to loop:
+
+* For loop - use this loop if you need to run code a specific number of times 
+* While loop - use this loop if you do not know how many times to run the code 
+* Do while loop - this loop is like the while loop except this loop will run everything that is within the curly braces just once even if it returns false
+
+### Loop Counters ### 
+I will demonstrate a loop counter using the For loop. 
+
+            for(var i = 0; i < 10; i++) {
+            ...
+            }
+ 
+This is an example of a counter loop or For loop and this is how it is interpreted: i is set to the value 0, and for as long as i is less than 10, i will increment 1, until i is not less than 10.
+
+Here is an example of the while loop 
+            
+            i = 1;
+            
+            while(i < 10){ 
+            msg += i + ' x 5 =' + (i * 5) '<br />'
+            i ++ 
+            }
+            
+This is another example of a counter loop but using the while loop instead of the for loop. This loop will run 9 times just like the for loop but will output the message of whatever i is (which increments 1 everytime) and 'x 5' along with its answer. The `<br />` signifies a break in the line meaning the next time the loop executes, it will display on a new line. 
+
+Here is an example of a do... while loop. Notice that the structure to this loop is a little different. 
+
+            i = 1 
+            
+            do {
+            (i * 5);
+            i++; 
+            }
+            while (i < 1);
+            
+This loop will only execute once because the while states as long as i < 1. So, the do will execute which is 1 * 5, and then i will increment, which then goes to the while portion and i is no longer less than 1 therefore it will end there. 
+    
+            
+            
 
