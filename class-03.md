@@ -74,11 +74,15 @@ The **border-width** property can be used to set the width of a border. To set t
 * thin
 * medium
 * thick 
+
+
 In addition to setting the values, you are also able to specify where you want to set the width using: 
 * border-top-width 
 * border-bottom-width
 * border-left-width
 * border-right-width
+
+
 Now that you can change the width of the border, how about the styling of the border. With the **border-style** property you can make your border look more catchy using the following properties: 
 * solid 
 * dotted 
@@ -89,6 +93,8 @@ Now that you can change the width of the border, how about the styling of the bo
 * inset 
 * outset
 * hidden / none 
+
+
 And you can change the style of the border individually as well just like the width using: 
 * border-top-style 
 * border-bottom-style
