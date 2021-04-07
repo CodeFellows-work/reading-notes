@@ -30,5 +30,69 @@ As you may know by now how CSS treats all HTML elements as if they are in their 
 
 ## Box Dimensions ## 
 
-### Width ### 
+### Height and Width ### 
+To change the sizing of a box, you can change it by using the width and height properties. Using these properties you change the values of those properties by using a number folllowed by either using **px**, a **percentage**, or **em**. Most developers will opt to use the px because you can accurately define the size using it. When using percentages note that it is the **percentage** or size relative to the size of the browser window, and if the box is within another box it is the size relative to the containing box. 
+When using **ems**, note that the box size is relative to the text size within it. Here is an example of how they are used: 
 
+             div {                        <!-- element <div> uses the px to size its surrounding box --> 
+                  height: 30px;
+                  width: 30px; 
+                 } 
+                 
+            div {                         <!-- element <div> uses the percentage to size its surrounding box --> 
+                  height: 30%;
+                  width: 30%;
+                  }
+                  
+            div {                         <!-- element <div> uses the ems to size its surrounding box --> 
+                  height: 30ems;
+                  width: 30ems; 
+                  } 
+                  
+You can also limit the size of the surrounding box by attaching the "min" or "max" before width or height. Like this: 
+
+                        div {
+                        min-height: 30px; 
+                        max-width: 30px; 
+                        }
+                
+### Overflow Content ### 
+When the content that is in your box comes out to be larger than the box itself, there is a solution for that. You can use the hidden property which will hide any content that does not fit in the box, or you can you uise the scroll property so that users can scroll through the box to see the rest of the content. Here is how that is written in code: 
+
+               div {
+                  overflow: hidden;
+                  }
+                  
+              div {
+                  overflow: scroll;
+                  }
+### Border, Margin, and Padding ### 
+Every box has a border whether you see it or not and will seperate the edges of a box with another. A margin is the space just outside of the border and can seperate the set box from another box. Padding is the space that is in between the text and the border. Just as how you set the width and height, you can set these in the same way. "margin", "border", "padding". 
+
+### Border Width, Size, Color ### 
+The **border-width** property can be used to set the width of a border. To set the value of the width you can use a number followed by the **px** or pixels or you can use the following values:
+* thin
+* medium
+* thick 
+In addition to setting the values, you are also able to specify where you want to set the width using: 
+* border-top-width 
+* border-bottom-width
+* border-left-width
+* border-right-width
+Now that you can change the width of the border, how about the styling of the border. With the **border-style** property you can make your border look more catchy using the following properties: 
+* solid 
+* dotted 
+* dashed
+* double
+* groove
+* ridge
+* inset 
+* outset
+* hidden / none 
+And you can change the style of the border individually as well just like the width using: 
+* border-top-style 
+* border-bottom-style
+* border-left-style
+* border-right-style 
+
+                  
