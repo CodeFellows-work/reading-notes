@@ -99,6 +99,6 @@ And you can change the style of the border individually as well just like the wi
 * border-top-style 
 * border-bottom-style
 * border-left-style
-* border-right-style 
+* border-right-style
 
                   
