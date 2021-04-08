@@ -53,3 +53,39 @@ There are other methods to place `<img>` tags, and thhat is with using `<figure>
 ### Old Code ###
 Something also worth mentioning is some old code, which HTML5 does not use because CSS is taking over these methods. So in older methods you can also add the `align` attribute to move your image to the right, left, top, middle, bottom. This is not to be confused with the image itself (especially the top, middle, and bottom. What this attribute does is align the text that surrounds the image to the left, to the right, top for the first line, bottom for the line, and middle for the first line. 
 
+## Color ## 
+Without some color on your webpage, your webpage can look very dull and boring. Color is used to bring life into your webpage and set the tone for your users. 
+
+### Foreground Color ### 
+Within CSS, the `color` property is used to color the text inside an element. To set the colors however, you have some options. 
+
+* RGB Values - RGB values will change color based on how much red, green and blue, you use within the settings. The red, green, and blue are expressed in numbers ranging from 0 to 255. So this may look like this; 
+            
+            h1 {
+            color : rgb(100, 100, 100);
+            }
+         
+* Hex Code - Hex code uses a hash symbol followed by a 6-digit code that will represent the color. The hex values are basically RGB but represented in a hexidecimal format. Using hex code to selct your color may look like this:
+
+           h1 {
+           color: #ffffff;
+           }
+        
+* Color Names - Another way to change your elements colors is through names. However, the names have to be recognuzed by browsers - and are limited compared to the previous two methods. Using color names to select your color may look like this:
+
+          h1 {
+          color: blue;
+          }
+          
+There is a good color picking tool if you go to https://colorschemedesigner.com.
+          
+### Background Color ### 
+If you need or just want to use a background color instead of coloring your text, or maybe both - you can use the `background-color` property to set the color of the box that is surrounding your text - and this goes by element. So if I wanted to fill the background of my `<h1>` to be all blue, this is the code:
+
+            h1 {
+            background-color: blue;
+            } 
+            
+
+        
+          
