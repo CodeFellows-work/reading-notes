@@ -125,4 +125,14 @@ I can also create functions in a variety of different ways:
             }
             ()) 
  
-          
+## Pair Programming ## 
+As you may have heard, multiple minds make greater achievements (or something along those lines). If it did not work, you probably would not hear about it. 
+So what if we had multiple people, working on code? I can understand if there is conflict, but overall I think it can be very efficient. 
+
+"Research indicates that pair programing takes slightly longer, but produces higher-quality code that doesn’t require later effort in troubleshooting and debugging (let alone exposing users to a broken product). So, in the long-run, it’s often actually more efficient than two people working on separate features." source: https://www.codefellows.org/blog/6-reasons-for-pair-programming/ 
+
+Not only will your code become more "higher-quality" but it gives you a chance to make collaberative ideas. There has to be a time where you and some of your buddies got together and genuinly though up of a good idea... Maybe not when your drinking. 
+
+You also will be able to learn from each other. Unlike in a classroom environment where you could be dozing off, working with a buddy and engaging each other can result in picking up a few things from each other. Not only can you learn but you also have a chance at socializing and you know what that means... it's very possible to network this way. 
+You never know where the person you are collaberating with will be in the near future. Maybe this person can give you an opportunity that you have always dreamed of. 
+Working with someone can also help your job interviewing skills, because you are almost forced to think on the spot and your partner(s) might push you to do this. I think at least this is a good environment to grow intellectually. Lasty, don't forget, when you find your next job as a software developer - your not going to be programming alone. So it is a good idea to get used to the motions of working with people when coding. 
