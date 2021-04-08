@@ -107,6 +107,20 @@ CSS3 also uses properties called `hsl` and `hsla`. These stand for hue, saturati
             } 
             
 ## Text ## 
+Sometimes using images, and color, are not enough to boost your confidence for a good looking webpage. How about changing the way the text looks like on your webpage. Not the color, but the styling of your text. Like different fonts, and sizes. Let's start off by changing the font of your text. 
+
+### Font-family ### 
+`font-family` is a property that will allow you to change between fonts that could be that extra push, to make your webpage look very nice. To use this property, you just need to go to the element you want to place the font change in and start by typing `font-family`. Then you can add the desired font. You can add multiple fonts seperated by commas so that if a browser does not have a font installed, it could go to the next one you specified. The code can look like this: 
+
+            h1 {
+            font-family: Georgia, Times, Serif;
+            }
             
+Don't think that you are only limited to the choices that your browser will give you for fonts. You can also link to fonts using the `@font-family`. For instan 
+
+### Font-Size ### 
+If you got the font you like, you can change its size using the `font-size` property. To set the values of the font size, you can use pixels, percentages, or ems, at the end of your value. Pixels are the most precise way of sizing, percentages will go off of the default pixels that the browser uses. 
+For instance, the default pixel size for a browser is 16px. if you change the percentage of a font to 75%, it would translate to 12px and 200% would translate to 32 px. ems, are dictated by the size of the text in the parent element. A good visual representation of the text sized can be seen through a word document. 8pts is like the smallest font, 72 pts is like the biggest. 
+
         
           
