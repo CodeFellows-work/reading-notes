@@ -57,7 +57,7 @@ To link to something that will direct the user to another part of the webpage wi
       <a href="#ThisIsWhereTheLinkWillTakeMe"> go to header 1 link </a> 
       
 ## Layout ## 
-Here we will check out different ways to create good looking layouts for your webpage. We need to check out positioning, how different screen sizes matter, different layouts, and grids. 
+Here we will check out different ways to create good looking layouts for your webpage. There are multiple methods to position your elements make them look good on your webpage. 
 
 ### Positioning ## 
 first let's tkae a look at positioning. 
@@ -74,3 +74,55 @@ first let's tkae a look at positioning.
  * Fixed Positioning 
       * `position:fixed` 
       * This positioning is like the absolute positioning but it is affected by the browser window. If you use this positioning the element will stay put even if a user scrolls up or down. 
+
+An element worth noting, for the sake of layouts is the **floating element** or `float`. With this element you can take normal flow element and place as far to the left or right as possible while still keeping the content. 
+
+## Functions ## 
+A better way to organize your JavaScript is through the use of functions & methods, objects, and built-int objects. But our main quest for these notes are functions. 
+
+So what are functions? Functions are essentially a way to group your statements and put it into one method. This way you can potentially eliminate writing thousands of lines of code. Just like how we store values in variables, functions are like storing statements. 
+
+So when you want to use this function later in your code, you must ensure to call it. To do this you create a name for your function so that you can **call** it later. To go through the motions and relay the gist of the creation of a function you must start off by declaring the function and giving it a name. Then you enter the block of code you want it to run (when information is passed through this block of code it is known as **paremeters**). When your function gives you back the information that you needed, it **returned** a value. This is how the code can look: 
+
+            
+            function exampleFunction('parameters go in here') {
+            ^-----^  ˆ---------------ˆ
+               |              |
+    this is function keyword  |
+                              This is the declared name of the function
+                  console.log('hello this is an example');
+                  ^--------------------------------------^
+                                                |
+                                                ------------- This is the code inside the brackets that will execute when called
+                  }
+                  
+                  function(); 
+                  ^--------^
+                        | 
+                        Calling the function to run 
+                        
+Note that the block of code will not run until the function has been called. So let's say that I declared a width with a value and a height with a value and want to know the area of a square. This might be how it will look like: 
+            
+            let width = 2;  // set the variable width to 2
+            let height = 3; // set the variable height to 3 
+            
+          function area(){ //made my function 
+           area =  width * height;  // entered what the function will do 
+           return area; // made the function return the value 
+           } 
+           
+        function(width,height); // none of the code will work until I call the function 
+        
+I can also create functions in a variety of different ways: 
+            
+            function example() { // Function declaration 
+            }
+            
+            let example = function(){ // Function Expression 
+            } 
+            
+            let example = ((function() { // Immediately Invoked Function Expression (IIFE) 
+            }
+            ()) 
+ 
+          
