@@ -34,9 +34,10 @@ Alright, you have now included the image you wanted with the proper descriptions
       
  As you can imagine, that image is a perfect square - and now the browser will leave just the right amount of space for this image after rendering all the text. 
  So where can you put these image tags? You can place image tags 
-      * Before a paragraph <img><<p> 
-      * Inside the start of a paragraph <p><img>
-      * Or in the middle of a paragraph <p>......<img>
+ 
+ * Before a paragraph <img><<p> 
+ * Inside the start of a paragraph <p><img>
+ * Or in the middle of a paragraph <p>......<img>
 
 Something also worth mentioning is some old code, which HTML5 does not use because CSS is taking over these methods. So in older methods you can also add the `align` attribute to move your image to the right, left, top, middle, bottom. This is not to be confused with the image itself (especially the top, middle, and bottom. What this attribute does is align the text that surrounds the image to the left, to the right, top for the first line, bottom for the line, and middle for the first line. 
 
