@@ -116,7 +116,16 @@ Sometimes using images, and color, are not enough to boost your confidence for a
             font-family: Georgia, Times, Serif;
             }
             
-Don't think that you are only limited to the choices that your browser will give you for fonts. You can also link to fonts using the `@font-family`. For instan 
+Don't think that you are only limited to the choices that your browser will give you for fonts. You can also link to fonts using the `@font-face` with a source. For instance: 
+
+            @font-face {
+            font-family: 'chunkyFiveregular';
+            src: url('fonts/chunkfive.eot');
+            }
+            h1{
+            font-family: chunkyfiveregular;
+            }
+            
 
 ### Font-Size ### 
 If you got the font you like, you can change its size using the `font-size` property. To set the values of the font size, you can use pixels, percentages, or ems, at the end of your value. Pixels are the most precise way of sizing, percentages will go off of the default pixels that the browser uses. 
