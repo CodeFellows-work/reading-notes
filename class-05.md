@@ -1,5 +1,5 @@
 # Images, Color, Text #
-## images ## 
+## Images ## 
 Images are used a lot in web pages, and why not? They help make your web page look good. We will cover how to put images in your HTML as well as which format to use for an image, making the image show at the correct size, and how to optimize your images so that browsers can load them faster. 
 
 So to choose an image for your web page, you must ensure you ask yourself a couple questions before using a photo. Those questions are: 
