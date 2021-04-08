@@ -86,6 +86,27 @@ If you need or just want to use a background color instead of coloring your text
             background-color: blue;
             } 
             
+### CSS3: Opacity ### 
+In CSS3, you will begin to see properties such as `opacity`. This property enables the designer to change the element and its child elements, the opacity starting from the value of 0.0 to 1.0 or 0% to 100%. Since this is a CSS3 feature, you may not notice these changes within an older browser. You can also define the opacity using the background-color property by adding a fourth value at the end, and change the rgb properties to rgb to rgba.  The code for `opacity` might look similar to this: 
 
+            p {
+            opacity: 0.4; 
+            background-color: rgba(0,0,0,0.4);
+            } 
+            
+### CSS3 HSL, HSLA ### 
+CSS3 also uses properties called `hsl` and `hsla`. These stand for hue, saturation, and light. Or hue, saturation, light, and alpha. This is another way to choose color other than RGB. Within `hsl` the hue value will be between 0 to 360 degrees, the saturation value will be expressed in a percentage, and light is also expressed in a percentage but with 0% being white, and 100% being black. 
+`hsla` will add the fourth value of alpha and this is measured like opacity where the starting value is 0.0 and the last value is 1.0. This is an example of how these look ;
+
+            h1 {
+            background-color: hsl(0, 0%, 40%); 
+            }
+            
+            h1 { 
+            background-color: hsla(0, 0%, 40%, 0.4%);
+            } 
+            
+## Text ## 
+            
         
           
