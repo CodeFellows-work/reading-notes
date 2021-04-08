@@ -18,13 +18,13 @@ After you use the `<img>` tag, you will follow it with a `src`. This essentially
       
 After you link the image you should describe what the photo is in case the browser cannot load the image for some reason. To do this you use `alt`. I see this is as something called alternative, because it is an alternative if your image does not load. This description that you write after the `alt` will show instead of your image if your image does not load. So now, the code looks like this: 
 
-    <img src+"childfolder/imagefile.jpg" alt="This is an example description" 
+    <img src="childfolder/imagefile.jpg" alt="This is an example description" 
     
     
 Now that you have the image, the file for that image, the link for that image, put into HTML, and an alternative description for that image, you should now use a `title`. A title (with most browsers) can display your description or more information about that image on mouse hover. This is how the code looks now: 
 
     
-    <img src+"childfolder/imagefile.jpg" alt="This is an example description" title="This is an example title" />
+    <img src="childfolder/imagefile.jpg" alt="This is an example description" title="This is an example title" />
     
 ## Height and Width of Images ## 
 
