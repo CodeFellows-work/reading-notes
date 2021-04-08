@@ -27,4 +27,16 @@ Now that you have the image, the file for that image, the link for that image, p
     <img src="childfolder/imagefile.jpg" alt="This is an example description" title="This is an example title" />
     
 ## Height and Width of Images ## 
+Alright, you have now included the image you wanted with the proper descriptions and titles for the images. Next is to properly size your images so that it can fit well next to the content of your webpage. Let's take a look at the `height` first. 
+`height` can be added within your img element to adjust the height of your photo. We can also use CSS to change these attributes but this lesson will cover within HTML. Following the `height` you can ener a number that will represent the pixels. As a matter of fact `width` follows the same rules. By adding `height` and `width` to your `<img>` element you set the precise size for your image so that the browser knows and can render th rest of the text while leaving the perfect amount of space for which you specified in `height` and `width`. With the `height` and `width` the code will look something like this:
+
+      <img src="childfolder/imagefile.jpg" alt="This is an example description" title="This is an example title" width="300" height="300" />
+      
+ As you can imagine, that image is a perfect square - and now the browser will leave just the right amount of space for this image after rendering all the text. 
+ So where can you put these image tags? You can place image tags 
+      * Before a paragraph <img><<p> 
+      * Inside the start of a paragraph <p><img>
+      * Or in the middle of a paragraph <p>......<img>
+
+Something also worth mentioning is some old code, which HTML5 does not use because CSS is taking over these methods. So in older methods you can also add the `align` attribute to move your image to the right, left, top, middle, bottom. This is not to be confused with the image itself (especially the top, middle, and bottom. What this attribute does is align the text that surrounds the image to the left, to the right, top for the first line, bottom for the line, and middle for the first line. 
 
