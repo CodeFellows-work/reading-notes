@@ -45,7 +45,7 @@ Alright, you have now included the image you wanted with the proper descriptions
 There are other methods to place `<img>` tags, and thhat is with using `<figure>` and then `<figcaption>` within figure. This was introduced in HTML5, and the reason was so developers can add captions to images. You can place mutliple images inside the `<figure>` as long as the `<figcaption>` element matches the caption for all of those images. The code looks something like this;
 
             <figure>
-                  <img src="childfolder/imagefile.jpg" alt="This is an example description" title="This is an example title" width="300" height="300" />
+                  <img src="childfolder/imagefile.jpg" alt="This is an example description" title="This is an example width="300" height="300" />
                   <br /> 
                   <figcaption> caption for the example image</figcaption>
             </figure> 
