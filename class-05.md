@@ -131,7 +131,7 @@ Don't think that you are only limited to the choices that your browser will give
 If you got the font you like, you can change its size using the `font-size` property. To set the values of the font size, you can use pixels, percentages, or ems, at the end of your value. Pixels are the most precise way of sizing, percentages will go off of the default pixels that the browser uses. 
 For instance, the default pixel size for a browser is 16px. if you change the percentage of a font to 75%, it would translate to 12px and 200% would translate to 32 px. ems, are dictated by the size of the text in the parent element. A good visual representation of the text sized can be seen through a word document. 8pts is like the smallest font, 72 pts is like the biggest. 
 
-### Bold and Italic###
+### Bold and Italic ###
 just like in a word document you can bold letters to emphasize something, you can do the same in CSS. a property called **font-weight** is used to bold text. This property uses two values, one being the normal value - which will cause text to appear at a normal *weight* and then the **bold** value which will make the text bold. This is how it looks like in code:
 
            p {
