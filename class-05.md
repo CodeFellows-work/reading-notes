@@ -156,4 +156,95 @@ We also use italicized text sometimes and to do that you use the  `font-style` p
             font-style: oblique;
             } 
            
-          
+### Uppercase and Lowercase ### 
+Sure you can hit the caps lock key and then let yourself write your text all in uppercase... but you can do this a without having to switch your caps lock on and off. Use the `text-transform` property and then use the **uppercase** value to turn all your text into uppercase letters. Maybe you dont want to use uppercase at all even, and even if your computer auto corrected you, it would still be lowercase. 
+Use the **lowercase** value to cause all of your text to view in lowercase letters. How about just the first letter? Maybe you want to to have this set automatically within an element. Use the **capitolize** value for this to occur. 
+
+### Underline and Strike**
+Let's say your designing a web page for an ad, and want to underline your selling price and strike through your old price. To do this you can use the `strike-through`property and then use the **underline** value to make the text undertlined, or you can use the **line-through** to strike through text. `text-decoration`has other values as well. 
+You can use the **none** value to remove any decoration that has been set, the **overline** value to put a line at the top of text, or you can use the **blink** value to animate the text and make it flash on and off. This would be a very good property to use for ads. 
+
+### Leading ### 
+If you are familiar with a word document or even APA formatted essays, you know what double-spaced means. The vertical space that divides each line of text. You can do this on CSS by using the **line-height** property to set the verticle space in between the text - whether it is descending or closing the space, or acending meaning that there is more space.  
+
+### Letter and Word Spcaing ### 
+So we went over the vertical line space between texts or sentences, how about in-between each letter. **kerning** is the term for the space in-between each letter. You can use two properties that essentially do just that. They are `word-spacing` and `letter-spacing`. 
+
+### Alignment ### 
+Now, let's align some text. You can set the text to be all the way to the right, all the way to the left, center your text, or take up the whole width of the containing box - except the last line. To do this you can use the property `text-align` and the values **left**, **right**, **center**, and **justify** 
+But now, lets say you have images stacked on top of each other and need text besides the images - it may be a situation where it looks like this: 
+
+
+                        _________
+                        |       |
+                        | image |   'Text that needs to be next to the image'
+                        |_______|
+                        
+                        _________
+                        |       |
+                        | image |   'Text that needs to be next to the image'
+                        |_______|
+                        
+                        _________
+                        |       |
+                        | image |   'Text that needs to be next to the image'
+                        |_______|
+                        
+How would you do that? You can use a property `vertical-align` to make this happen. However,  one thing to note this is more typically used with inline elements and not for block level elements. The values that are used with `vertical-align` include 
+      * baseline 
+      * sub 
+      * super
+      * top 
+      * text-top
+      * middle
+      * bottom
+      * text-bottom 
+
+### Indenting Text ### 
+Let's just say you come accross a situation where you might need to indent some text. Maybe you are quoting some text in APA format. You can use the `text-indent`property for this to occur. This property allows you to indent the first line of text to any value you choose (usually in pixels or ems). Keep in mind that this property does take in negative values, so you can push text out of the browser. 
+
+### CSS3: Drop Shadow ### 
+Because this is a CSS3 property, some old browser may not be able to view its full effects. Using a drop shadow will provide a dark version of the text behind the original text, giving it a drop shadow effect. To use this property you use `text-shadow`. This property uses four values that control where the shadow is horizontally, vertically, the blur (optional) and, finally the color. The first value indicates how far to the left or right the shadow is going to fall. The second value will indicate the distance to the top or bottom the shadow will fall,
+and the third value is the blur, and the fourth value is the color of the shadow. It may look something like this on code: 
+
+            p {
+            text-shadow: 1px, 1px, 3px, #000000 
+            } 
+            
+            
+### First letter or Line ### 
+If you want to only style a single line or even a single letter, you can use the `:first-letter` or `:first-line` property to do so. ONe thing to note is that this is technically not a property and its called a **pseudo-element**. This makes sense because this pseudo-element will not be in between the curly braces like properties do. Instead they will be added at the end of a selector. Like this: 
+
+            p.example:first-letter {
+                  font-family: times;
+                  } 
+              
+            p.exampletwo:first-line { 
+                  font-style: italic; 
+                  } 
+                  
+### Styling Links ### 
+If you have ever visited another web page and clicked on a link and it changed colors, that is because the `:visited` **pseudo-class** has been used. If you just seen a fancy link they used a `:link` **pseudo-class**. This is how it looks like in code: 
+
+
+            a:link {
+              color: examplecolor;
+              text-decoration: exampledecoration; 
+            a:visited {
+              color: examplecolor;
+            a:hover {
+              color: examplecolor;
+            a:active {
+              color: examplecolor;
+              }
+As you can see these link stylers are classes and not a property. 
+
+### Responding to Users ### 
+Some more pseudo classes are used to respond to users. For instance a style that is displayed when you hover over an element, you can use the `:hover` pseudo class. Another instance can be for a style to occur if you clicked on a button, you can use the `:active` pseudo class. For any element with focus you use the `:focus` pseudo class. 
+
+You should also note, that there is an order to using pseudo classes. The order is as follows: 
+1. `:link`
+1. `:visited`
+1. `:hover`
+1. `:focus`
+1. `:active` 
