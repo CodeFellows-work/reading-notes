@@ -106,3 +106,28 @@ So, there are mutiple ways your JavScript can access the HTML. A property that c
        // this will output what is inside of example 1. 
        let getContent = document.getElementById='example1'.innerHTML; 
  
+## Adding elements using DOM ## 
+With JavaScript, you can add elements to your HTML page. To do this you have to first use `createElement()` and then ceate the text using `createtextNode()` and then append the child using `appendChild()`. 
+
+So using our previous code example, we will add an element inside the <ul> 
+    
+    let newElement = document.createElement('li');
+    let elementText = documetcreateTextNode('example4'); 
+    new elementLi = document.appendChild(new elementText);
+    
+if you want to remove an element you can also do that in the JavaScript. 
+
+    let removeElement = document.getElementByTagName('ul')[0]; //the element<li> 
+    let containingElement = removeElement.parentNode; // the containing child 
+    continaingElement.removeChild(removeElement) // remove the element 
+    
+## Attribute Nodes ## 
+
+if you have an element node, you can use other properties or methods in that element node. 
+
+            //get the element node 
+            document.getElementById('example1') // from the above example this would get the example 1 element
+            . // member operator. The period indicates the susequent method will be used in this node 
+            // use a method for that element node
+            getAttribute('class'); 
+Another attribute node is the `hasAttribute()`. This returns as a `boolean` data type and if it checks to have a value of one or over, it will return as true. If not, then false. The `getAttribute()` returns the class that is used within the parenthesis. You can also remove the classes by using `removeAttribute()`. 
