@@ -80,7 +80,51 @@ You can also create arguemnents for an object that will have all the proerty val
 Arrays are actually objects as well. It is a type of object that cna hold a related set of information. Another difference an array has with other objects is the way you call a value. You use indexes in an array to specify a value. 
 
 ## Built-in Objects ## 
-What are built-in objects? These are objects that are provided by JavaScript. There are generally three types. 
+What are built-in objects? These are objects that are within your computer per-se. There are generally three types. 
 1. Browser Object Model 
-2. Document Object Model 
-3. Global JavaScript Objects 
+    * Browser object models create the model of the browser window or browser tab 
+### Browser objects The Window object ### 
+Here's just some properties that are provided by the browser.
+* Window.innerHeight
+* Window.innerWidth
+* window.page.Xoffset
+* window.pageYoffset
+Here are some methods provided 
+* window.alert() 
+* window.open() 
+* window.print() 
+1. Document Object Model 
+    * Document object models creates a model of the current page, so like HTML 
+### The Document Object ### 
+Here are some properties provided by the document 
+* document.title
+* document.lastModified 
+* document.URL 
+* document.domain 
+Here are some methods 
+* document.write() 
+* document.getElementById() 
+* document.createElement() 
+1. Global JavaScript Objects 
+    * Global JavaScript Objects represent the data types 
+### Global Objects ### 
+Global objects contain a long list of properties and methods. I will only name a few for each section 
+
+For string objects 
+* length 
+* toUpperCase() 
+* toLowerCase() 
+For number objects
+* isNaN() 
+* toFixed() 
+* toPrecision() 
+Math objects 
+* Math.PI 
+* Math.Round() 
+* Math.sqrt(n) 
+Date object
+* getDate() 
+* getDay() 
+* getHours()
+        
+
