@@ -32,3 +32,4 @@ There are also times where you will need to stretch out some rows, so that it ca
 
 Source: BrainBell. (2016, August 01). Spanning columns. Retrieved April 13, 2021, from https://www.brainbell.com/tutorials/HTML_and_CSS/Spanning_Columns.htm
 
+As seen in figure 2, you can see 
