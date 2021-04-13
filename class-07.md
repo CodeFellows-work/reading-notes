@@ -32,4 +32,4 @@ There are also times where you will need to stretch out some rows, so that it ca
 
 Source: BrainBell. (2016, August 01). Spanning columns. Retrieved April 13, 2021, from https://www.brainbell.com/tutorials/HTML_and_CSS/Spanning_Columns.htm
 
-As seen in figure 2, you can see 
+As seen in figure 2, you can see that the header covers the first two columns. This is spanning columns. To use this attribute, you just need to add `colspan = "whatever numer"` you can add this attribute into wither the `<tr>` or the `<td>` to where you want the span happening within a table. 
