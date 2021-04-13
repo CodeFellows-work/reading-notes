@@ -21,6 +21,12 @@ A table will represent your data in an organized fashion so that anyone can inte
      This will output as :   | example data |  example data |
                              |--------------|---------------|
                              
-To name your rows or columns you can simply add the `<th>` inside the `<tr>`. You determine to label either the row or column by including the scope attribute. So, within the `<th>` you would add `scope="row"`to label a row, and `scope="col"` to label a column. 
+To name your rows or columns you can simply add the `<th>` inside the `<tr>`. You determine to label either the row or column by including the scope attribute. So, within the `<th>` you would add `scope="row"` to label a row, and `scope="col"` to label a column. 
  
 ## Spanning Columns ## 
+There are also times where you will need to stretch out some rows, so that it can go up to a certain column. You might see this kind of spanning in job work schedules, or class schedules for school. So to put what I just said into perspective, these are the tables that you might need to create: 
+
+![Spanning Columns](https://www.brainbell.com/tutorials/HTML_and_CSS/images/0131855867/graphics/04fig12.gif;423381)
+
+Source: BrainBell. (2016, August 01). Spanning columns. Retrieved April 13, 2021, from https://www.brainbell.com/tutorials/HTML_and_CSS/Spanning_Columns.htm
+
