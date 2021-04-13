@@ -32,4 +32,15 @@ There are also times where you will need to stretch out some rows, so that it ca
 
 Source: BrainBell. (2016, August 01). Spanning columns. Retrieved April 13, 2021, from https://www.brainbell.com/tutorials/HTML_and_CSS/Spanning_Columns.htm
 
-As seen in figure 2, you can see that the header covers the first two columns. This is spanning columns. To use this attribute, you just need to add `colspan = "whatever numer"` you can add this attribute into wither the `<tr>` or the `<td>` to where you want the span happening within a table. 
+As seen in figure 2, you can see that the header covers the first two columns. This is spanning columns. To use this attribute, you just need to add `colspan = "whatever number"` you can add this attribute into wither the `<tr>` or the `<td>` to where you want the span happening within a table. 
+
+## Long Tables ## 
+If you happen to have a lot of data, there is another element for that, which can help you sort large amounts into a big table. Within this table, just think of another HTML document build within HTML. What I mean by this is that this table will have an element for a head, body, and a footer. So to start off making the table, under the `<table>` element, the `<thead>`. This element will hold the header of your table and is most likely your table labels for columns. 
+After the `<thead>` element is closed, you will move on to the main portion of your table with `<tbody>`. This element is like all the content or data you will put into your table. Finally, you use the `<tfoot>` element to add the footer of your table - and this can be things like totals.
+
+## Old code table Styling ## 
+To create kind of a styling to your tables you can use the width and spacing attributes to create gaps in bewtween each row and column. You can also use border attributes to create a border on your table or between rows and columns. 
+
+
+
+
