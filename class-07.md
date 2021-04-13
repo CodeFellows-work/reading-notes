@@ -41,6 +41,46 @@ After the `<thead>` element is closed, you will move on to the main portion of y
 ## Old code table Styling ## 
 To create kind of a styling to your tables you can use the width and spacing attributes to create gaps in bewtween each row and column. You can also use border attributes to create a border on your table or between rows and columns. 
 
+# Object-Oriented Programming # 
+Somewhat continuing off of **Domain Modeling**, a common thing to do is use a **constructor notation** to create a new object. To do this you declare a variable (such as using const, let, var) with your objects name. Then you use "=" followed by the `new` keyword and the object constructor, to create a new object. This creates an empty objects which then you can add things to. 
 
+         const hotel = new object() {
+         hotel.name = 'Hilton Suites'; 
+         hotel.rooms = 300;                 // properties 
+         hotel.booked = 150; 
+         
+         hotel.checkedAvailable = function() {
+            return this.room - this.booked;         // method
+            } 
 
+You can update the property values with an assignment operator (=) by calling the object followed by a period, then the property you want to update followed by the assignment operator, then the value. You can also use square brackets to update the value. If you want to delete a value you can use the `delete` keyword that will be placed in-front of the object, to delete the objects value or clear the string. 
 
+        hotel.name = "whatever name" // to update a property value 
+        
+        hotel['whatever name'] = 'park' // to update the property
+        
+        delete hotel.name; // to delete the property name 
+        
+        hotel.name = ''; // to clear the string 
+
+Another thing to note is that within the constructor notation, you can add several properties at once. You can do this by running the property perameters through the object. Then you can you the `this` keyword to assign property values. 
+        
+        function hotel(name, rooms, booked) { 
+        this.name =name; 
+        this.rooms = rooms;
+        this.booked = booked; 
+        
+You can also create arguemnents for an object that will have all the proerty values
+        
+        const hotelOne = new Hotel('Hilton1', 200, 180); 
+        
+        // hotelOne has the arguements of Hilton 1 name, 200 rooms, and 180 booked
+        
+## Array Objects ## 
+Arrays are actually objects as well. It is a type of object that cna hold a related set of information. Another difference an array has with other objects is the way you call a value. You use indexes in an array to specify a value. 
+
+## Built-in Objects ## 
+What are built-in objects? These are objects that are provided by JavaScript. There are generally three types. 
+1. Browser Object Model 
+2. Document Object Model 
+3. Global JavaScript Objects 
