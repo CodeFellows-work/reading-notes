@@ -5,7 +5,7 @@ Domain modeling is essentially the translation of the real world into code. Repl
 ## Domain Modeling Example ## 
 ![Domain Modeling](https://miro.medium.com/max/700/1*kM41O4gBK3BvXI0870A_kA.jpeg)
 
-
+### Figure 1 ### 
 Source: Chursin, O. (2017, December 27). A brief introduction to domain modeling. Retrieved April 13, 2021, from https://olegchursin.medium.com/a-brief-introduction-to-domain-modeling-862a30b38353
 
 # Tables # 
@@ -26,6 +26,7 @@ To name your rows or columns you can simply add the `<th>` inside the `<tr>`. Yo
 ## Spanning Columns ## 
 There are also times where you will need to stretch out some rows, so that it can go up to a certain column. You might see this kind of spanning in job work schedules, or class schedules for school. So to put what I just said into perspective, these are the tables that you might need to create: 
 
+### Figure 2 ###
 ![Spanning Columns](https://www.brainbell.com/tutorials/HTML_and_CSS/images/0131855867/graphics/04fig12.gif;423381)
 
 Source: BrainBell. (2016, August 01). Spanning columns. Retrieved April 13, 2021, from https://www.brainbell.com/tutorials/HTML_and_CSS/Spanning_Columns.htm
