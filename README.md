@@ -11,3 +11,4 @@ _Code Fellows 201_
 1. [HTML Images, CSS Color & text](https://sunny-lee3.github.io/reading-notes/class-05) 
 1. [Js Object Literals, and the DOM](https://sunny-lee3.github.io/reading-notes/class-06) 
 1. [Object-Oriented Programming, HTML Tables](https://sunny-lee3.github.io/reading-notes/class-07) 
+1. [CSS Layout](https://sunny-lee3.github.io/reading-notes/class-08) 
