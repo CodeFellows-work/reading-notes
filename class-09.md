@@ -79,3 +79,54 @@ How about making a form that asks for your name, address, and phone number. If y
   
 # List, Tables, Forms # 
 
+If you want your web page to hold data, then it might be a good idea to use a table. What I mean by data is some numbers or other characters you might want your users to see, to gian information with a data set. 
+Simple ways to give out data, is like some of the ways I present notes onto here. Lists. You can bullet point style lists using your list-style-type property in CSS. After you create your list whether it is an unordered list or an ordered list, you can change how the buillets are presented. You can change the bullets with different characters defined in CSS, or you can use different ways to number, such as Roman numerals. 
+IF you dont like the lists that are preinstalled, you can always use images. using the list-style-image attribute you can use images as your bullet points. 
+
+Now that you got your list and customize bullet points, an important part of CSS still remains. That is positioning your lists. You can use the list-styles-position and use the values outside so that the bullet point will sit to the left of the block of text (default), or use the indide value which will set the marker inside of the box of text. 
+
+It can look like this 
+
+        |---------------------|
+       * bullet point outside |
+        |                     |
+        |* bullet point inside|
+        |                     | 
+        
+If list style position or type or image, is too long to type you can always go to the shorthand route. You just need to type in list-style and then set the property you want. 
+
+### Table Properties ### 
+There are a lot of different things that can go into tables, and in CSS there are ways to change those different things. 
+
+* width 
+* padding
+* text-transform -convert the context of table to headers to uppercase 
+* letter-spacing. font-size - to add aditional styling to content headers 
+* border-top, border-bottom 
+* text-align 
+* background-color 
+* :hover - change when a mouse goes over the element 
+
+How about when you make a table but you need an empty spot in the table so you add a new table that is empty. You can do that, but there is another way. using the empty-cells attribute can make that happen for you. There are also some values that you can set with this attribute. 
+ * show - will show the borders of any empty cell
+ * hide - can hide the border of empty cells 
+ * inherit - when you have a table nested in another, this value will inherit the properties of the parent 
+
+There is also a way to make your table spaced out using the border-spacing property, and then you can make your table come together using the border-collapse property. 
+
+# JS Events # 
+Events are essentially things that will cause an action. Whether it is from a user hovering over an element in your page and that element changes color (interactive) or code that will make an even happen (triggered) or an event that will respond back to the user. All in all, there is a massive list of types of events. I will just list a few that is a peripheral event or mouse event just so you can get the idea. 
+
+ * click
+ *  dblclick 
+ *  mousedown 
+ *  mouseup
+ *  mousemove
+ *  mouseover
+ *  mouseout 
+ 
+So how do events work? Starting with the interaction, when a user interacts with the html, there will be some kind of trigger to JavScript code that will result in something else happening. 
+1. the element is selected
+2. identify which element will trigger the JavaScript event 
+3. the code that will run that event 
+
