@@ -13,3 +13,4 @@ _Code Fellows 201_
 1. [Object-Oriented Programming, HTML Tables](https://sunny-lee3.github.io/reading-notes/class-07) 
 1. [CSS Layout](https://sunny-lee3.github.io/reading-notes/class-08) 
 1. [Forms and JS Events](https://sunny-lee3.github.io/reading-notes/class-09) 
+1. [JS Error Handeling and Debugging](https://sunny-lee3.github.io/reading-notes/class-10) 
