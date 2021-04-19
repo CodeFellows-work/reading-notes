@@ -68,3 +68,6 @@ Also, get to know and understand your visitors. For instance, try to understand 
   7. export the stats 
 
 Furthermore, you will need a domain name and hosting service to hold your web page. 
+
+# Flash # 
+Flash has been very popular since the late 1990s, but is generally being phased out currently. The use of Flash was basically for your video files or movies, you wanted to incoroprate into your web page. You would add Flash to your page using JavaScrit and linking the video files with a src attribute. 
