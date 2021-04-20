@@ -37,3 +37,56 @@ So now you have incorperated this script tag in your HTMl, you will now need to 
 With this charts plug-in, you are not limited to only a line chart and you can use a pie chart, or a bar chart as well. What I notice regarding this code, is that - it looks like CSS and JavaScript are combined. 
 
 ## Canvas ## 
+### Basics ### 
+We are intoducing a new element which we have not covered yet which is the `<canvas>` element. The <canvas> element will take in two attributes which is the width and height. Ofcourse this is also optional and can also be set using the DOM properties. If you choose not to use the Width and the Height attributes, the defualt will be 300px wide and 150px high. As a matter of fact, this element can also take in most attributes that a normal img element can use such as margin, borfer, and picture. This is an example of where the <canvas> element is used: 
+      
+                        <!DOCTYPE html>
+                        <html>
+                        <head>
+                        <meta charset="utf-8"/>
+                         <title>Canvas tutorial</title>
+                         <script type="text/javascript">
+                          function draw() {
+                            var canvas = document.getElementById('tutorial');
+                            if (canvas.getContext) {
+                              var ctx = canvas.getContext('2d');
+                              }
+                            }
+                        </script>
+                        <style type="text/css">
+                          canvas { border: 1px solid black; }
+                        </style>
+                        </head>
+                        <body onload="draw();">
+                       <canvas id="tutorial" width="150" height="150"></canvas>
+                        </body>
+                        </html>
+                        
+                        Source: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+                        
+### Shapes with Canvas ### 
+An intersting feature that the canvas element provides you with is the ability to make shapes. Canvas uses lines to path its way into a shape. For instance: 
+
+        fillRect(x, y, width, height)
+        
+        this will draw a rectangle
+        source: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes        
+A functionA you should start to use with the <canvas> element to draw lines or **paths** are these functions: 
+  * beginPath()
+Then there are the methods:
+  * closePath()
+  * stroke()
+  * fill() 
+
+### Colors ### 
+The <canvas> element also can be colored. You use these properties to set them: 
+  * fillstyle = color 
+  * strokeStyle = color
+
+For a transparent look you use: 
+* globalAlpha = transparencyValue 
+
+### Drawing text ### 
+On a final note, you can choose to draw your text using some methods such as: 
+  * fillText(text, x,y, [, maxWidth]) 
+  * strokeText(text, x, y [, maxWidth])
