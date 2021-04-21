@@ -16,3 +16,4 @@ _Code Fellows 201_
 1. [JS Error Handeling and Debugging](https://sunny-lee3.github.io/reading-notes/class-10) 
 1. [Audio, Video, Images](https://sunny-lee3.github.io/reading-notes/class-11) 
 1. [Chart.js and Canvas](https://sunny-lee3.github.io/reading-notes/class-12)
+1. [Local Storage](https://sunny-lee3.github.io/reading-notes/class-13)
