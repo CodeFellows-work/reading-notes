@@ -23,3 +23,4 @@ _Code Fellows 201_
 ---
 _Code Fellows 301_ 
 1. [Intorduction to React and Components](https://sunny-lee3.github.io/reading-notes/301class-01)
+1. [State and Props](https://sunny-lee3.github.io/reading-notes/301class-02)
