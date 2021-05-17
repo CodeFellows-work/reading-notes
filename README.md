@@ -27,3 +27,4 @@ _Code Fellows 301_
 1. [Passing Functions as Props](https://sunny-lee3.github.io/reading-notes/301class-03)
 1. [React and Forms](https://sunny-lee3.github.io/reading-notes/301class-04)
 1. [Putting It All Together](https://sunny-lee3.github.io/reading-notes/301class-05)
+1. [Node.js](https://sunny-lee3.github.io/reading-notes/301class-06)
