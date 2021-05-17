@@ -1,0 +1,50 @@
+# NODE.JS #
+------------------------
+
+[Introduction to Node.js - Sitepoint](https://www.sitepoint.com/an-introduction-to-node-js/)
+
+-------------------------
+
+### What is node.js? ### 
+Node.js in its barest definition is a JavaScript runtime. This basically means that JavaScript is being executed on our computers and not the browser. Another definition of Node.js is that it is "an event-based, non-blocking, asynchronous I/O runtime that uses Google’s V8 JavaScript engine and libuv library." - Sitepoint quoted [Stack Overflow](https://stackoverflow.com/tags/node.js/info). 
+
+### In your own words, what is Chrome’s V8 JavaScript Engine? ### 
+The V8 engine is an engine that runs on Google Chrome and other various browsers that will compile JavaScript directly onto your computer, to run code. 
+
+### What does it mean that node is a JavaScript runtime? ###
+When JavaScript runtime is mentioned, it is reffering to code being executed from your computer. 
+
+### What is npm? ###
+` NPM` is a package manager that comes together with Node.js. 
+
+### What version of node are you running on your machine? ###
+My machine is running v15.14.0 of node. 
+
+### What version of npm are you running on your machine? ###
+My machine is running 7.7.6 of NPM
+
+### What command would you type to install a library/package called ‘jshint’? ###
+`npm install -g jshint` 
+
+### What is node used for? ### 
+NPM, and Node.js along with its various buld tools are to automate the process of "developing a modern JavaScript application." - Sitepoint
+-------------------------------
+
+[Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
+
+----------------------------------------------
+
+### What are the 6 reasons for pair programming? ###
+The six reasons for pair programming is: 
+1. Greater efficiency 
+2. Engaged Collaberation 
+3. Learning from fellow students 
+4. Social Skills 
+5. Job Interview Readiness 
+6. Work Environment Readiness 
+
+### In your experience, which of these reasons have you found most beneficial? ###
+In my own experience there are a couple of these reasons I found to be very beneficial. The most beneficial in my opinion are number 3 or learning from other students - because you are looking at another perpective and it trains your thinking to see another approach to a problem. The other beneficial experience in my opinion is the Job interview readiness. I say this because with some team projects or collaberation under your belt, you can apply this onto your resume, as well as tell your hiring manager what your personal experiences were working with someone and how you collaberated in making decisions. 
+
+### How does pair programming work? ### 
+Pair programming is mostly when there are groups of 2 that will collaberate in findina solution with one person coding, and the other person minly thinking of the coding. This in my expereince is difficult at first, until you can eventaully think like your partner. This is when things can get efficient - especially if they are able to take your ideas and also incorperate some of their ideas along with the code. 
