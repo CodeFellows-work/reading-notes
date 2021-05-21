@@ -30,3 +30,5 @@ _Code Fellows 301_
 1. [Node.js](https://sunny-lee3.github.io/reading-notes/301class-06)
 1. [REST](https://sunny-lee3.github.io/reading-notes/301class-07)
 1. [API's](https://sunny-lee3.github.io/reading-notes/301class-08)
+1. [Functional Programming](https://sunny-lee3.github.io/reading-notes/301class-09)
+1. [In Memory storage](https://sunny-lee3.github.io/reading-notes/301class-10)
