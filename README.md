@@ -32,3 +32,4 @@ _Code Fellows 301_
 1. [API's](https://sunny-lee3.github.io/reading-notes/301class-08)
 1. [Functional Programming](https://sunny-lee3.github.io/reading-notes/301class-09)
 1. [In Memory storage](https://sunny-lee3.github.io/reading-notes/301class-10)
+1. [Authentication](https://sunny-lee3.github.io/reading-notes/301class-10)
