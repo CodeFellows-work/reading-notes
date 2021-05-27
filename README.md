@@ -35,3 +35,4 @@ _Code Fellows 301_
 1. [Authentication](https://sunny-lee3.github.io/reading-notes/301class-11)
 1. [Mongoo and Mongoose](https://sunny-lee3.github.io/reading-notes/301class-12)
 1. [CRUD](https://sunny-lee3.github.io/reading-notes/301class-13)
+1. [Diversity & Inclusion In The Tech Indutstry](https://sunny-lee3.github.io/reading-notes/301class-14)
