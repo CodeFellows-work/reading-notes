@@ -40,3 +40,4 @@ _Code Fellows 301_
 ---
 _Code Fellows 401_ 
 1. [Getting Ready for 401](https://sunny-lee3.github.io/reading-notes/401class-01) 
+1. [Node Ecosystem, TDD, CI/CD](https://sunny-lee3.github.io/reading-notes/401class-02)
