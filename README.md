@@ -42,3 +42,4 @@ _Code Fellows 401_
 1. [Getting Ready for 401](https://sunny-lee3.github.io/reading-notes/401class-00) 
 1. [Node Ecosystem, TDD, CI/CD](https://sunny-lee3.github.io/reading-notes/401class-01)
 1. [Express](https://sunny-lee3.github.io/reading-notes/401class-02)
+1. [Data Modeling](https://sunny-lee3.github.io/reading-notes/401class-04)
