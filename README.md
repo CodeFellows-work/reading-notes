@@ -45,3 +45,4 @@ _Code Fellows 401_
 1. [Express REST API](https://sunny-lee3.github.io/reading-notes/401class-03)
 1. [Data Modeling](https://sunny-lee3.github.io/reading-notes/401class-04)
 1. [Authentication](https://sunny-lee3.github.io/reading-notes/401class-06)
+1. [Bearer Authorization](https://sunny-lee3.github.io/reading-notes/401class-07)
