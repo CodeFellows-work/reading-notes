@@ -46,3 +46,4 @@ _Code Fellows 401_
 1. [Data Modeling](https://sunny-lee3.github.io/reading-notes/401class-04)
 1. [Authentication](https://sunny-lee3.github.io/reading-notes/401class-06)
 1. [Bearer Authorization](https://sunny-lee3.github.io/reading-notes/401class-07)
+2. [Review, Research, and Discussion](https://sunny-lee3.github.io/reading-notes/401class-08)
