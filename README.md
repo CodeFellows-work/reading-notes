@@ -48,3 +48,4 @@ _Code Fellows 401_
 1. [Bearer Authorization](https://sunny-lee3.github.io/reading-notes/401class-07)
 1. [Review, Research, and Discussion](https://sunny-lee3.github.io/reading-notes/401class-08)
 1. [Event Driven Applications](https://sunny-lee3.github.io/reading-notes/401class-11)
+1. [Socket.io](https://sunny-lee3.github.io/reading-notes/401class-12)
