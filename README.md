@@ -52,3 +52,4 @@ _Code Fellows 401_
 1. [Reading 13](https://sunny-lee3.github.io/reading-notes/401class-13)
 1. [Event Driven Architecture](https://sunny-lee3.github.io/reading-notes/401class-14)
 1. [AWS](https://sunny-lee3.github.io/reading-notes/401class-16)
+1. [AWS: S3 and Lambda](https://sunny-lee3.github.io/reading-notes/401class-17)
