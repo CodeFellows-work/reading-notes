@@ -56,3 +56,4 @@ _Code Fellows 401_
 1. [AWS: API, Dynamo and Lambda](https://sunny-lee3.github.io/reading-notes/401class-18)
 1. [Component Based UI](https://sunny-lee3.github.io/reading-notes/401class-26)
 1. [useState()](https://sunny-lee3.github.io/reading-notes/401class27)
+1. [Component Lifecycle/ useEffect()](https://sunny-lee3.github.io/reading-notes/401class-28)
