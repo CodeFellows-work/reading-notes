@@ -58,3 +58,4 @@ _Code Fellows 401_
 1. [useState()](https://sunny-lee3.github.io/reading-notes/401class27)
 1. [Component Lifecycle/ useEffect()](https://sunny-lee3.github.io/reading-notes/401class-28)
 1. [Advanced State with Reducers](https://sunny-lee3.github.io/reading-notes/401class-29)
+1. [Hooks API](https://sunny-lee3.github.io/reading-notes/401class-31)
