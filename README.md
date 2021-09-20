@@ -64,5 +64,5 @@ _Code Fellows JavaScript 401_
 1. [Login and Auth](https://sunny-lee3.github.io/reading-notes/401class-34)
 
 ---
-_Code Fellows Java 401
+_Code Fellows Java 401_
 
