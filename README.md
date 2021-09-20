@@ -65,4 +65,4 @@ _Code Fellows JavaScript 401_
 
 ---
 _Code Fellows Java 401_
-1. [Java Basics](https://sunny-lee3.github.io/reading-notes/Java401_1)
+1. [Java Basics](https://github.com/CodeFellows-work/reading-notes/blob/main/Java401_1.md)
