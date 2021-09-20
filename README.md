@@ -21,7 +21,7 @@ _Code Fellows 201_
 1. [What Google Learned](https://sunny-lee3.github.io/reading-notes/class-14b)
 
 ---
-_Code Fellows 301_ 
+_Code Fellows JavaScript 301_ 
 1. [Intorduction to React and Components](https://sunny-lee3.github.io/reading-notes/301class-01)
 1. [State and Props](https://sunny-lee3.github.io/reading-notes/301class-02)
 1. [Passing Functions as Props](https://sunny-lee3.github.io/reading-notes/301class-03)
@@ -38,7 +38,7 @@ _Code Fellows 301_
 1. [Diversity & Inclusion In The Tech Indutstry](https://sunny-lee3.github.io/reading-notes/301class-14)
 
 ---
-_Code Fellows 401_ 
+_Code Fellows JavaScript 401_ 
 1. [Getting Ready for 401](https://sunny-lee3.github.io/reading-notes/401class-00) 
 1. [Node Ecosystem, TDD, CI/CD](https://sunny-lee3.github.io/reading-notes/401class-01)
 1. [Express](https://sunny-lee3.github.io/reading-notes/401class-02)
@@ -62,3 +62,7 @@ _Code Fellows 401_
 1. [Custom Hooks](https://sunny-lee3.github.io/reading-notes/401class-32)
 1. [Context API](https://sunny-lee3.github.io/reading-notes/401class-33)
 1. [Login and Auth](https://sunny-lee3.github.io/reading-notes/401class-34)
+
+---
+_Code Fellows Java 401
+
